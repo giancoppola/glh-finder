@@ -28,6 +28,7 @@ var react_1 = require("react");
 var client_1 = require("react-dom/client");
 var material_1 = require("@mui/material");
 var leaflet = __importStar(require("leaflet"));
+var map_data_1 = require("./map-data");
 var theme = (0, material_1.createTheme)({});
 theme = (0, material_1.responsiveFontSizes)(theme);
 var App = function () {
@@ -45,6 +46,7 @@ var App = function () {
         leaflet.marker([51.468452, -0.093722]).addTo(map)
             .bindPopup('Kings College <br/> Hospital')
             .openPopup();
+        leaflet.geoJSON(map_data_1.SW_GLH).addTo(map);
     }, []);
     return ((0, jsx_runtime_1.jsx)(react_1.StrictMode, { children: (0, jsx_runtime_1.jsxs)(material_1.ThemeProvider, { theme: theme, children: [(0, jsx_runtime_1.jsx)(material_1.Typography, { children: "Hello World" }), (0, jsx_runtime_1.jsx)("div", { className: "map", id: "map" })] }) }));
 };

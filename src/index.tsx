@@ -3,9 +3,12 @@ import { createRoot } from 'react-dom/client'
 import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider } from "@mui/material";
 
 import * as leaflet from 'leaflet';
+import { SW_GLH } from "./map-data";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
+
+
 
 const App = () => {
     useEffect(() => {
@@ -22,6 +25,7 @@ const App = () => {
         leaflet.marker([51.468452, -0.093722]).addTo(map)
             .bindPopup('Kings College <br/> Hospital')
             .openPopup();
+        leaflet.geoJSON(SW_GLH).addTo(map);
     }, [])
     return (
         <StrictMode>
