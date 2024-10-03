@@ -1,0 +1,42 @@
+{
+  "name": "glh-finder",
+  "version": "1.0.0",
+  "description": "Tool to more easily identify which NHS GLH a given facility is part of",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "DEBUG=express:* && tsc --project tsconfig.json && webpack && node server.js",
+    "build": "npm install && tsc --project tsconfig.json && webpack",
+    "server": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giancoppola/glh-finder.git"
+  },
+  "author": "Gian Coppola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giancoppola/glh-finder/issues"
+  },
+  "homepage": "https://github.com/giancoppola/glh-finder#readme",
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
