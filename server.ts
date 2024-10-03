@@ -1,9 +1,16 @@
-require('dotenv').config();
-const express = require('express');
+// require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
+import express from 'express';
 import {Express, NextFunction, Request, Response} from 'express';
 
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
+const __dirname = path.dirname(__filename); // get the name of the directory
+
 const app: Express = express();
-const cors = require('cors');
+import cors from 'cors';
 
 // App middlewares
 app.use(cors());
