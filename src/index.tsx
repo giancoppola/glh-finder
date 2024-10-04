@@ -16,7 +16,7 @@ const App = () => {
     return (
         <StrictMode>
             <ThemeProvider theme={theme}>
-                <Typography>Hello World</Typography>
+                <Typography variant="h1">GLH Mapper</Typography>
                 {/* <div className="map" id="map"></div> */}
                 <MapContainer center={[52.849, -1.395]} zoom={6}>
                     <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
