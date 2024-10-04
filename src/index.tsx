@@ -34,6 +34,14 @@ const App = () => {
                             South West GLH/GMSA
                         </Popup>
                     </GeoJSON>
+                    {UK.features.map((feature) => (
+                        /* @ts-ignore */
+                        <GeoJSON data={feature}>
+                            <Popup>
+                                {feature.properties.NAME_2}
+                            </Popup>
+                        </GeoJSON>
+                    ))}
                 </MapContainer>
             </ThemeProvider>
         </StrictMode>
