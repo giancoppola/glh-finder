@@ -6,11 +6,10 @@ import * as leaflet from 'leaflet';
 import { Coords } from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer, useMap, GeoJSON } from 'react-leaflet'
 import { SW_GLH, UK } from "./map-data.js";
+import { CENTRAL_COL, CENTRAL_GLH, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_COL, NORTH_THAMES_GLH, NORTH_WEST_COL, NORTH_WEST_GLH, SOUTH_EAST_COL, SOUTH_EAST_GLH, SOUTH_WEST_COL, SOUTH_WEST_GLH } from "./globals.js";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
-
-
 
 const App = () => {
     const mapPoint: Array<Coords> = []
@@ -28,17 +27,22 @@ const App = () => {
                             Kings College <br/> Hospital
                         </Popup>
                     </Marker>
-                    {/* @ts-ignore */}
-                    <GeoJSON data={UK}>
-                        <Popup>
-                            South West GLH/GMSA
-                        </Popup>
-                    </GeoJSON>
                     {UK.features.map((feature) => (
                         /* @ts-ignore */
-                        <GeoJSON data={feature}>
+                        <GeoJSON data={feature} style={
+                            function(feature) {
+                                switch (feature!.properties.GLH) {
+                                    case CENTRAL_GLH: return {color: CENTRAL_COL}
+                                    case SOUTH_WEST_GLH: return {color: SOUTH_WEST_COL}
+                                    case SOUTH_EAST_GLH: return {color: SOUTH_EAST_COL}
+                                    case NORTH_THAMES_GLH: return {color: NORTH_THAMES_COL}
+                                    case NORTH_EAST_GLH: return {color: NORTH_EAST_COL}
+                                    case NORTH_WEST_GLH: return {color: NORTH_WEST_COL}
+                                }
+                            }
+                        }>
                             <Popup>
-                                {feature.properties.NAME_2}
+                                {feature.properties.AREA} - {feature.properties.GLH}
                             </Popup>
                         </GeoJSON>
                     ))}

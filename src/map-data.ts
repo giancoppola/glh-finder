@@ -145,16 +145,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 1,
-                "NAME_2": "Barking and Dagenham",
-                "HASC_2": "GB.BA",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Barking and Dagenham",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -347,16 +339,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 2,
-                "NAME_2": "Bath and North East Somerset",
-                "HASC_2": "GB.BN",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Bath and North East Somerset",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -741,16 +725,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 3,
-                "NAME_2": "Bedfordshire",
-                "HASC_2": "GB.BD",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Bedfordshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -1155,16 +1131,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 4,
-                "NAME_2": "Berkshire",
-                "HASC_2": "GB.BK",
-                "TYPE_2": "County",
-                "ENGTYPE_2": "County",
-                "VARNAME_2": ""
+                "AREA": "Berkshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -1293,16 +1261,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 5,
-                "NAME_2": "Bexley",
-                "HASC_2": "GB.XB",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Bexley",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -1399,16 +1359,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 6,
-                "NAME_2": "Blackburn with Darwen",
-                "HASC_2": "GB.BW",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "Blackburn, Blackburn and Darwen"
+                "AREA": "Blackburn with Darwen",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -1485,16 +1437,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 7,
-                "NAME_2": "Bournemouth",
-                "HASC_2": "GB.BM",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Bournemouth",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -1627,16 +1571,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 8,
-                "NAME_2": "Brent",
-                "HASC_2": "GB.BE",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Brent",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -1765,16 +1701,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 9,
-                "NAME_2": "Brighton and Hove",
-                "HASC_2": "GB.BH",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Brighton and Hove",
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -1903,16 +1831,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 10,
-                "NAME_2": "Bristol",
-                "HASC_2": "GB.BS",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "Bristol",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -2101,16 +2021,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 11,
-                "NAME_2": "Bromley",
-                "HASC_2": "GB.BZ",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Bromley",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -2663,16 +2575,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 12,
-                "NAME_2": "Buckinghamshire",
-                "HASC_2": "GB.BU",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Buckinghamshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -3265,16 +3169,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 13,
-                "NAME_2": "Cambridgeshire",
-                "HASC_2": "GB.CM",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Cambridgeshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -3379,16 +3275,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 14,
-                "NAME_2": "Camden",
-                "HASC_2": "GB.CN",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Camden",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -3905,16 +3793,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 15,
-                "NAME_2": "Cheshire",
-                "HASC_2": "GB.CH",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Cheshire",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -6625,16 +6505,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 16,
-                "NAME_2": "Cornwall",
-                "HASC_2": "GB.CO",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": "Cornouailles|Cornovaglia|Cornualha|Cornualles|Cornwall and Isles of Scilly"
+                "AREA": "Cornwall",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -6787,16 +6659,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 17,
-                "NAME_2": "Croydon",
-                "HASC_2": "GB.CY",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Croydon",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -8451,16 +8315,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 18,
-                "NAME_2": "Cumbria",
-                "HASC_2": "GB.CU",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Cumbria",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -8653,16 +8509,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 19,
-                "NAME_2": "Darlington",
-                "HASC_2": "GB.DA",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Darlington",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -9321,16 +9169,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 20,
-                "NAME_2": "Derbyshire",
-                "HASC_2": "GB.DB",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Derbyshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -9403,16 +9243,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 21,
-                "NAME_2": "Derby",
-                "HASC_2": "GB.DE",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "Derby",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -11453,16 +11285,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 22,
-                "NAME_2": "Devon",
-                "HASC_2": "GB.DO",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Devon",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -12453,16 +12277,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 23,
-                "NAME_2": "Dorset",
-                "HASC_2": "GB.DS",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Dorset",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -12939,16 +12755,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 24,
-                "NAME_2": "Durham",
-                "HASC_2": "GB.DH",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": "County Durham"
+                "AREA": "Durham",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -13097,16 +12905,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 25,
-                "NAME_2": "Ealing",
-                "HASC_2": "GB.EG",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Ealing",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -13837,16 +13637,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 26,
-                "NAME_2": "East Riding of Yorkshire",
-                "HASC_2": "GB.EY",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "East Riding, East Yorkshire"
+                "AREA": "East Riding of Yorkshire",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -14327,16 +14119,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 27,
-                "NAME_2": "East Sussex",
-                "HASC_2": "GB.ES",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "East Sussex",
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -14525,16 +14309,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 28,
-                "NAME_2": "Enfield",
-                "HASC_2": "GB.EF",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Enfield",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -15669,16 +15445,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 29,
-                "NAME_2": "Essex",
-                "HASC_2": "GB.EX",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Essex",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -16335,16 +16103,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 30,
-                "NAME_2": "Gloucestershire",
-                "HASC_2": "GB.GC",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Gloucestershire",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -16509,16 +16269,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 31,
-                "NAME_2": "Greenwich",
-                "HASC_2": "GB.GR",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Greenwich",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -16627,16 +16379,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 32,
-                "NAME_2": "Hackney",
-                "HASC_2": "GB.HK",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Hackney",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -16861,16 +16605,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 33,
-                "NAME_2": "Halton",
-                "HASC_2": "GB.HL",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Halton",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -16983,16 +16719,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 34,
-                "NAME_2": "Hammersmith and Fulham",
-                "HASC_2": "GB.HF",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Hammersmith and Fulham",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -17935,16 +17663,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 35,
-                "NAME_2": "Hampshire",
-                "HASC_2": "GB.HA",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": "Southampton"
+                "AREA": "Hampshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -18061,16 +17781,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 36,
-                "NAME_2": "Haringey",
-                "HASC_2": "GB.HY",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Haringey",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -18179,16 +17891,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 37,
-                "NAME_2": "Harrow",
-                "HASC_2": "GB.HR",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Harrow",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -18321,16 +18025,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 38,
-                "NAME_2": "Hartlepool",
-                "HASC_2": "GB.HP",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Hartlepool",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -18479,16 +18175,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 39,
-                "NAME_2": "Havering",
-                "HASC_2": "GB.HV",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Havering",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -18993,16 +18681,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 40,
-                "NAME_2": "Herefordshire",
-                "HASC_2": "GB.HE",
-                "TYPE_2": "Unitary Authority (county)",
-                "ENGTYPE_2": "Unitary Authority (county)",
-                "VARNAME_2": ""
+                "AREA": "Herefordshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -19499,16 +19179,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 41,
-                "NAME_2": "Hertfordshire",
-                "HASC_2": "GB.HT",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Hertfordshire",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -19653,16 +19325,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 42,
-                "NAME_2": "Hillingdon",
-                "HASC_2": "GB.HD",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Hillingdon",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -19827,16 +19491,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 43,
-                "NAME_2": "Hounslow",
-                "HASC_2": "GB.HU",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Hounslow",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -20277,16 +19933,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 44,
-                "NAME_2": "Isle of Wight",
-                "HASC_2": "GB.IW",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Isle of Wight",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -20379,16 +20027,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 45,
-                "NAME_2": "Islington",
-                "HASC_2": "GB.IT",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Islington",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -20477,16 +20117,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 46,
-                "NAME_2": "Kensington and Chelsea",
-                "HASC_2": "GB.KC",
-                "TYPE_2": "London Borough (royal)",
-                "ENGTYPE_2": "London Borough (royal)",
-                "VARNAME_2": ""
+                "AREA": "Kensington and Chelsea",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -21645,16 +21277,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 47,
-                "NAME_2": "Kent",
-                "HASC_2": "GB.KE",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Kent",
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -21747,16 +21371,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 48,
-                "NAME_2": "Kingston upon Hull",
-                "HASC_2": "GB.KH",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": "Hull"
+                "AREA": "Kingston upon Hull",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -21853,16 +21469,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 49,
-                "NAME_2": "Kingston upon Thames",
-                "HASC_2": "GB.KT",
-                "TYPE_2": "London Borough (royal)",
-                "ENGTYPE_2": "London Borough (royal)",
-                "VARNAME_2": ""
+                "AREA": "Kingston upon Thames",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -21979,16 +21587,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 50,
-                "NAME_2": "Lambeth",
-                "HASC_2": "GB.LT",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Lambeth",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -22821,16 +22421,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 51,
-                "NAME_2": "Lancashire",
-                "HASC_2": "GB.LA",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Lancashire",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -23289,16 +22881,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 52,
-                "NAME_2": "Leicestershire",
-                "HASC_2": "GB.LE",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Leicestershire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -23351,16 +22935,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 53,
-                "NAME_2": "Leicester",
-                "HASC_2": "GB.LC",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "Leicester",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -23509,16 +23085,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 54,
-                "NAME_2": "Lewisham",
-                "HASC_2": "GB.LW",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Lewisham",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -24591,16 +24159,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 55,
-                "NAME_2": "Lincolnshire",
-                "HASC_2": "GB.LI",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Lincolnshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -24649,16 +24209,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 56,
-                "NAME_2": "London",
-                "HASC_2": "GB.LN",
-                "TYPE_2": "London Borough (city)",
-                "ENGTYPE_2": "London Borough (city)",
-                "VARNAME_2": ""
+                "AREA": "London",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -24751,16 +24303,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 57,
-                "NAME_2": "Luton",
-                "HASC_2": "GB.LU",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Luton",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -25149,16 +24693,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 58,
-                "NAME_2": "Manchester",
-                "HASC_2": "GB.MN",
-                "TYPE_2": "Metropolitan Borough (city)",
-                "ENGTYPE_2": "Metropolitan Borough (city)",
-                "VARNAME_2": ""
+                "AREA": "Manchester",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -25545,16 +25081,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 59,
-                "NAME_2": "Medway",
-                "HASC_2": "GB.MW",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "Medway Towns"
+                "AREA": "Medway",
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -25939,16 +25467,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 60,
-                "NAME_2": "Merseyside",
-                "HASC_2": "GB.MS",
-                "TYPE_2": "Metropolitan County",
-                "ENGTYPE_2": "Metropolitan County",
-                "VARNAME_2": ""
+                "AREA": "Merseyside",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -26073,16 +25593,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 61,
-                "NAME_2": "Merton",
-                "HASC_2": "GB.ME",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Merton",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -26171,16 +25683,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 62,
-                "NAME_2": "Middlesbrough",
-                "HASC_2": "GB.MB",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Middlesbrough",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -26345,16 +25849,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 63,
-                "NAME_2": "Milton Keynes",
-                "HASC_2": "GB.MK",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Milton Keynes",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -26471,16 +25967,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 64,
-                "NAME_2": "Newham",
-                "HASC_2": "GB.NH",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Newham",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -27369,16 +26857,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 65,
-                "NAME_2": "Norfolk",
-                "HASC_2": "GB.NF",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Norfolk",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -27567,16 +27047,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 66,
-                "NAME_2": "North East Lincolnshire",
-                "HASC_2": "GB.NE",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "North East Lincolnshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -28007,16 +27479,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 67,
-                "NAME_2": "North Lincolnshire",
-                "HASC_2": "GB.NL",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "North Lincolnshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -28317,16 +27781,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 68,
-                "NAME_2": "North Somerset",
-                "HASC_2": "GB.NS",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "North West Somerset"
+                "AREA": "North Somerset",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -29655,16 +29111,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 69,
-                "NAME_2": "North Yorkshire",
-                "HASC_2": "GB.NY",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "North Yorkshire",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -30157,16 +29605,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 70,
-                "NAME_2": "Northamptonshire",
-                "HASC_2": "GB.NA",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Northamptonshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -31181,16 +30621,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 71,
-                "NAME_2": "Northumberland",
-                "HASC_2": "GB.NB",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Northumberland",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -31697,16 +31129,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 72,
-                "NAME_2": "Nottinghamshire",
-                "HASC_2": "GB.NT",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Nottinghamshire",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -31775,16 +31199,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 73,
-                "NAME_2": "Nottingham",
-                "HASC_2": "GB.NG",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "Nottingham",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -32349,16 +31765,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 74,
-                "NAME_2": "Oxfordshire",
-                "HASC_2": "GB.OX",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Oxfordshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -32511,16 +31919,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 75,
-                "NAME_2": "Peterborough",
-                "HASC_2": "GB.PB",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Peterborough",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -32706,11 +32106,11 @@ export const UK = {
                 "ID_1": 1,
                 "NAME_1": "England",
                 "ID_2": 76,
-                "NAME_2": "Plymouth",
+                "AREA": "Plymouth",
                 "HASC_2": "GB.PM",
                 "TYPE_2": "Unitary Authority (city)",
                 "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "VARAREA": ""
             }
         },
         {
@@ -32839,16 +32239,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 77,
-                "NAME_2": "Poole",
-                "HASC_2": "GB.PL",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Poole",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -33139,16 +32531,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 78,
-                "NAME_2": "Portsmouth",
-                "HASC_2": "GB.PS",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "Portsmouth",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -33293,16 +32677,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 79,
-                "NAME_2": "Redbridge",
-                "HASC_2": "GB.RB",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Redbridge",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -33531,16 +32907,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 80,
-                "NAME_2": "Redcar and Cleveland",
-                "HASC_2": "GB.RC",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Redcar and Cleveland",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -33713,16 +33081,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 81,
-                "NAME_2": "Richmond upon Thames",
-                "HASC_2": "GB.RU",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Richmond upon Thames",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -33863,16 +33223,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 82,
-                "NAME_2": "Rutland",
-                "HASC_2": "GB.RL",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Rutland",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -34561,16 +33913,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 83,
-                "NAME_2": "Shropshire",
-                "HASC_2": "GB.SP",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": "Salop"
+                "AREA": "Shropshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -35407,16 +34751,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 84,
-                "NAME_2": "Somerset",
-                "HASC_2": "GB.SM",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Somerset",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -35677,16 +35013,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 85,
-                "NAME_2": "South Gloucestershire",
-                "HASC_2": "GB.SJ",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "South Gloucestershire",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -36091,16 +35419,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 86,
-                "NAME_2": "South Yorkshire",
-                "HASC_2": "GB.SY",
-                "TYPE_2": "Metropolitan County",
-                "ENGTYPE_2": "Metropolitan County",
-                "VARNAME_2": ""
+                "AREA": "South Yorkshire",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -36218,11 +35538,11 @@ export const UK = {
                 "ID_1": 1,
                 "NAME_1": "England",
                 "ID_2": 87,
-                "NAME_2": "Southampton",
+                "AREA": "Southampton",
                 "HASC_2": "GB.ZH",
                 "TYPE_2": "Unitary Authority (city)",
                 "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "VARAREA": ""
             }
         },
         {
@@ -36433,16 +35753,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 88,
-                "NAME_2": "Southend-on-Sea",
-                "HASC_2": "GB.SS",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "Southend"
+                "AREA": "Southend-on-Sea",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -36579,16 +35891,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 89,
-                "NAME_2": "Southwark",
-                "HASC_2": "GB.SQ",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Southwark",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -37281,16 +36585,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 90,
-                "NAME_2": "Staffordshire",
-                "HASC_2": "GB.ST",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Staffordshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -37451,16 +36747,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 91,
-                "NAME_2": "Stockton-on-Tees",
-                "HASC_2": "GB.ZT",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "Stockton"
+                "AREA": "Stockton-on-Tees",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -37545,16 +36833,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 92,
-                "NAME_2": "Stoke-on-Trent",
-                "HASC_2": "GB.SO",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "Stoke-on-Trent",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -38527,16 +37807,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 93,
-                "NAME_2": "Suffolk",
-                "HASC_2": "GB.SF",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Suffolk",
+                "GLH": "East GLH/GMSA"
             }
         },
         {
@@ -38905,16 +38177,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 94,
-                "NAME_2": "Surrey",
-                "HASC_2": "GB.SR",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Surrey",
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -39039,16 +38303,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 95,
-                "NAME_2": "Sutton",
-                "HASC_2": "GB.SU",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Sutton",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -39185,16 +38441,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 96,
-                "NAME_2": "Swindon",
-                "HASC_2": "GB.SN",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "Thamesdown"
+                "AREA": "Swindon",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -39291,16 +38539,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 97,
-                "NAME_2": "Telford and Wrekin",
-                "HASC_2": "GB.TK",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": "The Wrekin, Wrekin"
+                "AREA": "Telford and Wrekin",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -39477,16 +38717,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 98,
-                "NAME_2": "Thurrock",
-                "HASC_2": "GB.TR",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Thurrock",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -39761,16 +38993,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 99,
-                "NAME_2": "Torbay",
-                "HASC_2": "GB.TB",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Torbay",
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -39891,16 +39115,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 100,
-                "NAME_2": "Tower Hamlets",
-                "HASC_2": "GB.TH",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Tower Hamlets",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -40213,16 +39429,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 101,
-                "NAME_2": "Tyne and Wear",
-                "HASC_2": "GB.TW",
-                "TYPE_2": "Metropolitan County",
-                "ENGTYPE_2": "Metropolitan County",
-                "VARNAME_2": ""
+                "AREA": "Tyne and Wear",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -40327,16 +39535,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 102,
-                "NAME_2": "Waltham Forest",
-                "HASC_2": "GB.WF",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Waltham Forest",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -40485,16 +39685,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 103,
-                "NAME_2": "Wandsworth",
-                "HASC_2": "GB.WW",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARNAME_2": ""
+                "AREA": "Wandsworth",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -40627,16 +39819,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 104,
-                "NAME_2": "Warrington",
-                "HASC_2": "GB.WT",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARNAME_2": ""
+                "AREA": "Warrington",
+                "GLH": "North West GLH/GMSA"
             }
         },
         {
@@ -41173,16 +40357,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 105,
-                "NAME_2": "Warwickshire",
-                "HASC_2": "GB.WR",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Warwickshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -41507,16 +40683,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 106,
-                "NAME_2": "West Midlands",
-                "HASC_2": "GB.WM",
-                "TYPE_2": "Metropolitan County",
-                "ENGTYPE_2": "Metropolitan County",
-                "VARNAME_2": ""
+                "AREA": "West Midlands",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -42157,16 +41325,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 107,
-                "NAME_2": "West Sussex",
-                "HASC_2": "GB.WS",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "West Sussex",
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -42603,16 +41763,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 108,
-                "NAME_2": "West Yorkshire",
-                "HASC_2": "GB.WY",
-                "TYPE_2": "Metropolitan County",
-                "ENGTYPE_2": "Metropolitan County",
-                "VARNAME_2": ""
+                "AREA": "West Yorkshire",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         },
         {
@@ -42725,16 +41877,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 109,
-                "NAME_2": "Westminster",
-                "HASC_2": "GB.WE",
-                "TYPE_2": "London Borough (city)",
-                "ENGTYPE_2": "London Borough (city)",
-                "VARNAME_2": ""
+                "AREA": "Westminster",
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -43295,16 +42439,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 110,
-                "NAME_2": "Wiltshire",
-                "HASC_2": "GB.WL",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Wiltshire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -43849,16 +42985,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 111,
-                "NAME_2": "Worcestershire",
-                "HASC_2": "GB.WC",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARNAME_2": ""
+                "AREA": "Worcestershire",
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -43983,23 +43111,9 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 112,
-                "NAME_2": "York",
-                "HASC_2": "GB.YK",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARNAME_2": ""
+                "AREA": "York",
+                "GLH": "North East and Yorkshire GLH/GMSA"
             }
         }
-    ],
-    "style": {
-        "stroke": "#000000",
-        "fill": "#3498DB",
-        "stroke-width": 1,
-        "fill-opacity": 0.8
-    }
+    ]
 }
