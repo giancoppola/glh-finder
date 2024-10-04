@@ -1,5 +1,5 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { StrictMode } from "react";
+import { StrictMode, useState } from "react";
 import { createRoot } from 'react-dom/client';
 import { Typography, createTheme, responsiveFontSizes, ThemeProvider } from "@mui/material";
 import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from 'react-leaflet';
@@ -8,8 +8,8 @@ import { CENTRAL_COL, CENTRAL_GLH, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_
 var theme = createTheme({});
 theme = responsiveFontSizes(theme);
 var App = function () {
-    var mapPoint = [];
-    return (_jsx(StrictMode, { children: _jsxs(ThemeProvider, { theme: theme, children: [_jsx(Typography, { variant: "h1", children: "GLH Mapper" }), _jsxs(MapContainer, { center: [52.849, -1.395], zoom: 6, children: [_jsx(TileLayer, { url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", bounds: [[49.289, -6.636], [56.907, 2.817]], minZoom: 6, maxNativeZoom: 18, maxZoom: 100 }), _jsx(Marker, { position: [51.468452, -0.093722], children: _jsxs(Popup, { children: ["Kings College ", _jsx("br", {}), " Hospital"] }) }), UK.features.map(function (feature) { return (
+    var _a = useState([52.849, -1.395]), markerPos = _a[0], setMarkerPos = _a[1];
+    return (_jsx(StrictMode, { children: _jsxs(ThemeProvider, { theme: theme, children: [_jsx(Typography, { variant: "h1", children: "GLH Mapper" }), _jsxs(MapContainer, { center: [52.849, -1.395], zoom: 6, children: [_jsx(TileLayer, { url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", bounds: [[49.289, -6.636], [56.907, 2.817]], minZoom: 6, maxNativeZoom: 18, maxZoom: 100 }), _jsx(Marker, { position: markerPos, children: _jsxs(Popup, { children: ["Kings College ", _jsx("br", {}), " Hospital"] }) }), UK.features.map(function (feature) { return (
                         /* @ts-ignore */
                         _jsx(GeoJSON, { data: feature, style: function (feature) {
                                 switch (feature.properties.GLH) {
