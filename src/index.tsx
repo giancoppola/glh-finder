@@ -5,7 +5,7 @@ import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider } fr
 import * as leaflet from 'leaflet';
 import { Coords } from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer, useMap, GeoJSON } from 'react-leaflet'
-import { SW_GLH, Gloucestershire, UK } from "./map-data.js";
+import { SW_GLH, UK } from "./map-data.js";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
