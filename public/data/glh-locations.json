@@ -8,7 +8,8 @@
         "North Somerset",
         "Bristol",
         "South Gloucestershire",
-        "Gloucestershire"
+        "Gloucestershire",
+        "Plymouth"
     ],
     "South East GLH/GMSA": [
         "Kent",
@@ -76,7 +77,8 @@
         "Telford and Wrekin",
         "Staffordshire",
         "Stoke-on-Trent",
-        "West Midlands"
+        "West Midlands",
+        "Southampton"
     ],
     "East GLH/GMSA": [
         "Derbyshire",

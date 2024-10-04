@@ -19,7 +19,7 @@ const App = () => {
                 <Typography>Hello World</Typography>
                 {/* <div className="map" id="map"></div> */}
                 <MapContainer center={[52.849, -1.395]} zoom={6}>
-                    <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
                     bounds={[[49.289, -6.636],[56.907, 2.817]]}
                     minZoom={6} maxNativeZoom={18} maxZoom={100}/>
                     <Marker position={[51.468452, -0.093722]}>

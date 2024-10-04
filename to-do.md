@@ -1,1 +1,1 @@
-- Gather all UK counties GeoJSON data - https://github.com/glynnbird/ukcountiesgeojson/blob/master/somerset.geojson, https://cartographyvectors.com/map/1682-uk-counties, https://ons.maps.arcgis.com/apps/webappviewer/index.html?id=5cec9cc7208d418fbc1e7f538cb8745f, https://ons.maps.arcgis.com/home/item.html?id=717cfe6e9e0f45f1a638935809656dc8&sublayer=0
+- Change map style - https://leaflet-extras.github.io/leaflet-providers/preview/

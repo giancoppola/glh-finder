@@ -32101,16 +32101,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 76,
                 "AREA": "Plymouth",
-                "HASC_2": "GB.PM",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -35533,16 +35525,8 @@ export const UK = {
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 87,
                 "AREA": "Southampton",
-                "HASC_2": "GB.ZH",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
