@@ -127,16 +127,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 1,
                 "AREA": "Barking and Dagenham",
-                "HASC_2": "GB.BA",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -329,16 +321,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 2,
                 "AREA": "Bath and North East Somerset",
-                "HASC_2": "GB.BN",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -1129,16 +1113,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 4,
                 "AREA": "Berkshire",
-                "HASC_2": "GB.BK",
-                "TYPE_2": "County",
-                "ENGTYPE_2": "County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -1267,16 +1243,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 5,
                 "AREA": "Bexley",
-                "HASC_2": "GB.XB",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -1451,16 +1419,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 7,
                 "AREA": "Bournemouth",
-                "HASC_2": "GB.BM",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -1593,16 +1553,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 8,
                 "AREA": "Brent",
-                "HASC_2": "GB.BE",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -1731,16 +1683,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 9,
                 "AREA": "Brighton and Hove",
-                "HASC_2": "GB.BH",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -1869,16 +1813,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 10,
                 "AREA": "Bristol",
-                "HASC_2": "GB.BS",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -2067,16 +2003,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 11,
                 "AREA": "Bromley",
-                "HASC_2": "GB.BZ",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -2629,16 +2557,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 12,
                 "AREA": "Buckinghamshire",
-                "HASC_2": "GB.BU",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -3337,16 +3257,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 14,
                 "AREA": "Camden",
-                "HASC_2": "GB.CN",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -6575,16 +6487,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 16,
                 "AREA": "Cornwall",
-                "HASC_2": "GB.CO",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": "Cornouailles|Cornovaglia|Cornualha|Cornualles|Cornwall and Isles of Scilly"
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -6737,16 +6641,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 17,
                 "AREA": "Croydon",
-                "HASC_2": "GB.CY",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -11371,16 +11267,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 22,
                 "AREA": "Devon",
-                "HASC_2": "GB.DO",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -12999,16 +12887,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 25,
                 "AREA": "Ealing",
-                "HASC_2": "GB.EG",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -14221,16 +14101,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 27,
                 "AREA": "East Sussex",
-                "HASC_2": "GB.ES",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -14419,16 +14291,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 28,
                 "AREA": "Enfield",
-                "HASC_2": "GB.EF",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -15563,16 +15427,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 29,
                 "AREA": "Essex",
-                "HASC_2": "GB.EX",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -16229,16 +16085,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 30,
                 "AREA": "Gloucestershire",
-                "HASC_2": "GB.GC",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -16403,16 +16251,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 31,
                 "AREA": "Greenwich",
-                "HASC_2": "GB.GR",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -16521,16 +16361,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 32,
                 "AREA": "Hackney",
-                "HASC_2": "GB.HK",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -16869,16 +16701,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 34,
                 "AREA": "Hammersmith and Fulham",
-                "HASC_2": "GB.HF",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -17821,16 +17645,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 35,
                 "AREA": "Hampshire",
-                "HASC_2": "GB.HA",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": "Southampton"
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -17947,16 +17763,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 36,
                 "AREA": "Haringey",
-                "HASC_2": "GB.HY",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -18065,16 +17873,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 37,
                 "AREA": "Harrow",
-                "HASC_2": "GB.HR",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -18357,16 +18157,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 39,
                 "AREA": "Havering",
-                "HASC_2": "GB.HV",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -18871,16 +18663,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 40,
                 "AREA": "Herefordshire",
-                "HASC_2": "GB.HE",
-                "TYPE_2": "Unitary Authority (county)",
-                "ENGTYPE_2": "Unitary Authority (county)",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -19377,16 +19161,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 41,
                 "AREA": "Hertfordshire",
-                "HASC_2": "GB.HT",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -19531,16 +19307,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 42,
                 "AREA": "Hillingdon",
-                "HASC_2": "GB.HD",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -19705,16 +19473,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 43,
                 "AREA": "Hounslow",
-                "HASC_2": "GB.HU",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -20249,16 +20009,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 45,
                 "AREA": "Islington",
-                "HASC_2": "GB.IT",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -20347,16 +20099,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 46,
                 "AREA": "Kensington and Chelsea",
-                "HASC_2": "GB.KC",
-                "TYPE_2": "London Borough (royal)",
-                "ENGTYPE_2": "London Borough (royal)",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -21515,16 +21259,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 47,
                 "AREA": "Kent",
-                "HASC_2": "GB.KE",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -21715,16 +21451,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 49,
                 "AREA": "Kingston upon Thames",
-                "HASC_2": "GB.KT",
-                "TYPE_2": "London Borough (royal)",
-                "ENGTYPE_2": "London Borough (royal)",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -21841,16 +21569,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 50,
                 "AREA": "Lambeth",
-                "HASC_2": "GB.LT",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -23347,16 +23067,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 54,
                 "AREA": "Lewisham",
-                "HASC_2": "GB.LW",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -24479,16 +24191,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 56,
                 "AREA": "London",
-                "HASC_2": "GB.LN",
-                "TYPE_2": "London Borough (city)",
-                "ENGTYPE_2": "London Borough (city)",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -25359,16 +25063,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 59,
                 "AREA": "Medway",
-                "HASC_2": "GB.MW",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": "Medway Towns"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -25879,16 +25575,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 61,
                 "AREA": "Merton",
-                "HASC_2": "GB.ME",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -26143,16 +25831,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 63,
                 "AREA": "Milton Keynes",
-                "HASC_2": "GB.MK",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -26269,16 +25949,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 64,
                 "AREA": "Newham",
-                "HASC_2": "GB.NH",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -28091,16 +27763,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 68,
                 "AREA": "North Somerset",
-                "HASC_2": "GB.NS",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": "North West Somerset"
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -32083,16 +31747,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 74,
                 "AREA": "Oxfordshire",
-                "HASC_2": "GB.OX",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -32565,16 +32221,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 77,
                 "AREA": "Poole",
-                "HASC_2": "GB.PL",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -32865,16 +32513,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 78,
                 "AREA": "Portsmouth",
-                "HASC_2": "GB.PS",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -33019,16 +32659,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 79,
                 "AREA": "Redbridge",
-                "HASC_2": "GB.RB",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -33431,16 +33063,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 81,
                 "AREA": "Richmond upon Thames",
-                "HASC_2": "GB.RU",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -34271,16 +33895,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 83,
                 "AREA": "Shropshire",
-                "HASC_2": "GB.SP",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": "Salop"
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -35117,16 +34733,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 84,
                 "AREA": "Somerset",
-                "HASC_2": "GB.SM",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -35387,16 +34995,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 85,
                 "AREA": "South Gloucestershire",
-                "HASC_2": "GB.SJ",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -36135,16 +35735,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 88,
                 "AREA": "Southend-on-Sea",
-                "HASC_2": "GB.SS",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": "Southend"
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -36281,16 +35873,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 89,
                 "AREA": "Southwark",
-                "HASC_2": "GB.SQ",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -36983,16 +36567,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 90,
                 "AREA": "Staffordshire",
-                "HASC_2": "GB.ST",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -37239,16 +36815,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 92,
                 "AREA": "Stoke-on-Trent",
-                "HASC_2": "GB.SO",
-                "TYPE_2": "Unitary Authority (city)",
-                "ENGTYPE_2": "Unitary Authority (city)",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -38591,16 +38159,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 94,
                 "AREA": "Surrey",
-                "HASC_2": "GB.SR",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -38725,16 +38285,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 95,
                 "AREA": "Sutton",
-                "HASC_2": "GB.SU",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -38871,16 +38423,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 96,
                 "AREA": "Swindon",
-                "HASC_2": "GB.SN",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": "Thamesdown"
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -38977,16 +38521,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 97,
                 "AREA": "Telford and Wrekin",
-                "HASC_2": "GB.TK",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": "The Wrekin, Wrekin"
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -39163,16 +38699,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 98,
                 "AREA": "Thurrock",
-                "HASC_2": "GB.TR",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -39447,16 +38975,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 99,
                 "AREA": "Torbay",
-                "HASC_2": "GB.TB",
-                "TYPE_2": "Unitary Authority",
-                "ENGTYPE_2": "Unitary Authority",
-                "VARAREA": ""
+                "GLH": "South West GLH/GMSA"
             }
         },
         {
@@ -39577,16 +39097,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 100,
                 "AREA": "Tower Hamlets",
-                "HASC_2": "GB.TH",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -40005,16 +39517,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 102,
                 "AREA": "Waltham Forest",
-                "HASC_2": "GB.WF",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -40163,16 +39667,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 103,
                 "AREA": "Wandsworth",
-                "HASC_2": "GB.WW",
-                "TYPE_2": "London Borough",
-                "ENGTYPE_2": "London Borough",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -40843,16 +40339,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 105,
                 "AREA": "Warwickshire",
-                "HASC_2": "GB.WR",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -41177,16 +40665,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 106,
                 "AREA": "West Midlands",
-                "HASC_2": "GB.WM",
-                "TYPE_2": "Metropolitan County",
-                "ENGTYPE_2": "Metropolitan County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -41827,16 +41307,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 107,
                 "AREA": "West Sussex",
-                "HASC_2": "GB.WS",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -42387,16 +41859,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 109,
                 "AREA": "Westminster",
-                "HASC_2": "GB.WE",
-                "TYPE_2": "London Borough (city)",
-                "ENGTYPE_2": "London Borough (city)",
-                "VARAREA": ""
+                "GLH": "North Thames GLH/GMSA"
             }
         },
         {
@@ -42957,16 +42421,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 110,
                 "AREA": "Wiltshire",
-                "HASC_2": "GB.WL",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
@@ -43511,16 +42967,8 @@
                 ]
             },
             "properties": {
-                "ISO": "GBR",
-                "NAME_0": "United Kingdom",
-                "ID_1": 1,
-                "NAME_1": "England",
-                "ID_2": 111,
                 "AREA": "Worcestershire",
-                "HASC_2": "GB.WC",
-                "TYPE_2": "Administrative County",
-                "ENGTYPE_2": "Administrative County",
-                "VARAREA": ""
+                "GLH": "Central and South GLH/GMSA"
             }
         },
         {
