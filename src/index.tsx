@@ -1,12 +1,13 @@
-import { Dispatch, StrictMode, useEffect, useState } from "react";
+import { ChangeEvent, Dispatch, StrictMode, useEffect, useState } from "react";
 import { createRoot } from 'react-dom/client'
-import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider } from "@mui/material";
+import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider, TextField, Box } from "@mui/material";
 
 import * as leaflet from 'leaflet';
 import { LatLngExpression } from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer, useMap, GeoJSON } from 'react-leaflet'
-import { SW_GLH, UK } from "./map-data.js";
-import { CENTRAL_COL, CENTRAL_GLH, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_COL, NORTH_THAMES_GLH, NORTH_WEST_COL, NORTH_WEST_GLH, SOUTH_EAST_COL, SOUTH_EAST_GLH, SOUTH_WEST_COL, SOUTH_WEST_GLH } from "./globals.js";
+import { UK } from "./map-data.js";
+import { CENTRAL_COL, CENTRAL_GLH, EAST_COL, EAST_GLH, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_COL, NORTH_THAMES_GLH, NORTH_WEST_COL, NORTH_WEST_GLH, SOUTH_EAST_COL, SOUTH_EAST_GLH, SOUTH_WEST_COL, SOUTH_WEST_GLH } from "./globals.js";
+import { LocationSearch } from "./modules/location-search.js";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
@@ -32,12 +33,13 @@ const App = () => {
                         <GeoJSON data={feature} style={
                             function(feature) {
                                 switch (feature!.properties.GLH) {
-                                    case CENTRAL_GLH: return {color: CENTRAL_COL}
-                                    case SOUTH_WEST_GLH: return {color: SOUTH_WEST_COL}
-                                    case SOUTH_EAST_GLH: return {color: SOUTH_EAST_COL}
-                                    case NORTH_THAMES_GLH: return {color: NORTH_THAMES_COL}
-                                    case NORTH_EAST_GLH: return {color: NORTH_EAST_COL}
-                                    case NORTH_WEST_GLH: return {color: NORTH_WEST_COL}
+                                    case CENTRAL_GLH: return {color: CENTRAL_COL, fillOpacity: 1}
+                                    case SOUTH_WEST_GLH: return {color: SOUTH_WEST_COL, fillOpacity: 1}
+                                    case SOUTH_EAST_GLH: return {color: SOUTH_EAST_COL, fillOpacity: 1}
+                                    case NORTH_THAMES_GLH: return {color: NORTH_THAMES_COL, fillOpacity: 1}
+                                    case NORTH_EAST_GLH: return {color: NORTH_EAST_COL, fillOpacity: 1}
+                                    case NORTH_WEST_GLH: return {color: NORTH_WEST_COL, fillOpacity: 1}
+                                    case EAST_GLH: return {color: EAST_COL, fillOpacity: 1}
                                 }
                             }
                         }>
@@ -47,7 +49,7 @@ const App = () => {
                         </GeoJSON>
                     ))}
                 </MapContainer>
-
+                <LocationSearch/>
             </ThemeProvider>
         </StrictMode>
     )

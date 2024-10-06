@@ -1,3 +1,4 @@
+export var GOOGLE_MAPS_API_KEY = "AIzaSyDcpy_TjKDv6pyNgHDkGors7TQERSOE-GE";
 export var CENTRAL_COL = "#CDD9FF";
 export var EAST_COL = "#FBD0C9";
 export var NORTH_EAST_COL = "#E2C3FF";

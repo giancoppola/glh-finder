@@ -1,0 +1,4 @@
+- Map styles - https://leaflet-extras.github.io/leaflet-providers/preview/
+- Place type restictions - https://developers.google.com/maps/documentation/javascript/place-types#health-and-wellness
+- Autocomplete Data API Reference - https://developers.google.com/maps/documentation/javascript/reference/autocomplete-data
+- Places Autocomplete React - https://developers.google.com/maps/documentation/javascript/examples/rgm-autocomplete

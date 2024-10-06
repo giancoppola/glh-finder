@@ -1,3 +1,5 @@
+export const GOOGLE_MAPS_API_KEY = "AIzaSyDcpy_TjKDv6pyNgHDkGors7TQERSOE-GE";
+
 export const CENTRAL_COL: string = "#CDD9FF";
 export const EAST_COL: string = "#FBD0C9";
 export const NORTH_EAST_COL: string = "#E2C3FF";

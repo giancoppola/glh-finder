@@ -4,7 +4,8 @@ import { createRoot } from 'react-dom/client';
 import { Typography, createTheme, responsiveFontSizes, ThemeProvider } from "@mui/material";
 import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from 'react-leaflet';
 import { UK } from "./map-data.js";
-import { CENTRAL_COL, CENTRAL_GLH, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_COL, NORTH_THAMES_GLH, NORTH_WEST_COL, NORTH_WEST_GLH, SOUTH_EAST_COL, SOUTH_EAST_GLH, SOUTH_WEST_COL, SOUTH_WEST_GLH } from "./globals.js";
+import { CENTRAL_COL, CENTRAL_GLH, EAST_COL, EAST_GLH, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_COL, NORTH_THAMES_GLH, NORTH_WEST_COL, NORTH_WEST_GLH, SOUTH_EAST_COL, SOUTH_EAST_GLH, SOUTH_WEST_COL, SOUTH_WEST_GLH } from "./globals.js";
+import { LocationSearch } from "./modules/location-search.js";
 var theme = createTheme({});
 theme = responsiveFontSizes(theme);
 var App = function () {
@@ -13,14 +14,15 @@ var App = function () {
                         /* @ts-ignore */
                         _jsx(GeoJSON, { data: feature, style: function (feature) {
                                 switch (feature.properties.GLH) {
-                                    case CENTRAL_GLH: return { color: CENTRAL_COL };
-                                    case SOUTH_WEST_GLH: return { color: SOUTH_WEST_COL };
-                                    case SOUTH_EAST_GLH: return { color: SOUTH_EAST_COL };
-                                    case NORTH_THAMES_GLH: return { color: NORTH_THAMES_COL };
-                                    case NORTH_EAST_GLH: return { color: NORTH_EAST_COL };
-                                    case NORTH_WEST_GLH: return { color: NORTH_WEST_COL };
+                                    case CENTRAL_GLH: return { color: CENTRAL_COL, fillOpacity: 1 };
+                                    case SOUTH_WEST_GLH: return { color: SOUTH_WEST_COL, fillOpacity: 1 };
+                                    case SOUTH_EAST_GLH: return { color: SOUTH_EAST_COL, fillOpacity: 1 };
+                                    case NORTH_THAMES_GLH: return { color: NORTH_THAMES_COL, fillOpacity: 1 };
+                                    case NORTH_EAST_GLH: return { color: NORTH_EAST_COL, fillOpacity: 1 };
+                                    case NORTH_WEST_GLH: return { color: NORTH_WEST_COL, fillOpacity: 1 };
+                                    case EAST_GLH: return { color: EAST_COL, fillOpacity: 1 };
                                 }
-                            }, children: _jsxs(Popup, { children: [feature.properties.AREA, " - ", feature.properties.GLH] }) })); })] })] }) }));
+                            }, children: _jsxs(Popup, { children: [feature.properties.AREA, " - ", feature.properties.GLH] }) })); })] }), _jsx(LocationSearch, {})] }) }));
 };
 var root = createRoot(document.getElementById("app"));
 root.render(_jsx(App, {}));
