@@ -11,7 +11,15 @@ export var LocationSearch = function () {
             .then(function (latlng) { return console.log(latlng); })
             .catch(function (error) { return console.error(error); });
     };
-    return (_jsx(_Fragment, { children: _jsx(GooglePlacesAutocomplete, { apiKey: GOOGLE_MAPS_API_KEY, selectProps: {
+    return (_jsx(_Fragment, { children: _jsx(GooglePlacesAutocomplete, { apiKey: GOOGLE_MAPS_API_KEY, autocompletionRequest: {
+                // bounds: [
+                //   { lat: 50, lng: 50 },
+                //   { lat: 100, lng: 100 }
+                // ],
+                componentRestrictions: {
+                    country: ['uk'],
+                }
+            }, selectProps: {
                 onChange: HandleLocationSearch,
             } }) }));
 };

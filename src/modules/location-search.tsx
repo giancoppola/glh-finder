@@ -23,6 +23,15 @@ export const LocationSearch = () => {
         <>
           {/* @ts-ignore */}
           <GooglePlacesAutocomplete apiKey={GOOGLE_MAPS_API_KEY}
+          autocompletionRequest={{
+            // bounds: [
+            //   { lat: 50, lng: 50 },
+            //   { lat: 100, lng: 100 }
+            // ],
+            componentRestrictions: {
+              country: ['uk'],
+            }
+          }}
           selectProps={{
             onChange: HandleLocationSearch,
           }}/>
