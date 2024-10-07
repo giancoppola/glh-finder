@@ -1,12 +1,14 @@
-body, main {
+body {
   margin: 0;
+}
+
+main {
   width: 100dvw;
-  height: 100dvh;
 }
 
 .map, .leaflet-container {
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
