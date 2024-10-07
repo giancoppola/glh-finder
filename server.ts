@@ -24,7 +24,7 @@ app.get("*", (req: Request, res:Response, next: NextFunction) => {
 })
 
 app.get('/', (req: Request, res:Response, next: NextFunction) => {
-    res.sendFile(__dirname + `/views/index.html`)
+    res.sendFile(__dirname + `/html/index.html`)
     // res.send('<a href="/auth/google">Login with Google</a><a href="/logout">Log Out</a>')
 })
 

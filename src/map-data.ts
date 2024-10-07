@@ -1244,7 +1244,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bexley",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -2004,7 +2004,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bromley",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -6642,7 +6642,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Croydon",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -16252,7 +16252,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Greenwich",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -19308,7 +19308,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hillingdon",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -19474,7 +19474,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hounslow",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -21452,7 +21452,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Kingston upon Thames",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -21570,7 +21570,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Lambeth",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -23068,7 +23068,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Lewisham",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -25576,7 +25576,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Merton",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -33056,7 +33056,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Richmond upon Thames",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -35858,7 +35858,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Southwark",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -38270,7 +38270,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Sutton",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {
@@ -39652,7 +39652,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Wandsworth",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "South East GLH/GMSA"
             }
         },
         {

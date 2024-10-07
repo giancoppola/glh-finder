@@ -49,18 +49,17 @@ import { useState } from "react";
 import { Box, List, ListItem, ListItemText, ListItemButton } from "@mui/material";
 import GooglePlacesAutocomplete, { geocodeByPlaceId, getLatLng } from 'react-google-places-autocomplete';
 import { Close } from "@mui/icons-material";
-export var LocationSearch = function () {
+export var LocationSearch = function (props) {
     var _a = useState(""), searchKeyword = _a[0], setSearchKeyword = _a[1];
-    var _b = useState([]), selectedPlaces = _b[0], setSelectedPlaces = _b[1];
     var AddSelectedPlace = function (place) {
-        var newSelectedPlaces = __spreadArray([], selectedPlaces, true);
+        var newSelectedPlaces = __spreadArray([], props.selectedPlaces, true);
         newSelectedPlaces.push(place);
-        setSelectedPlaces(newSelectedPlaces);
+        props.setSelectedPlaces(newSelectedPlaces);
     };
     var RemoveSelectedPlace = function (index) {
-        var newSelectedPlaces = __spreadArray([], selectedPlaces, true);
+        var newSelectedPlaces = __spreadArray([], props.selectedPlaces, true);
         newSelectedPlaces.splice(index, 1);
-        setSelectedPlaces(newSelectedPlaces);
+        props.setSelectedPlaces(newSelectedPlaces);
     };
     var HandleLocationSelected = function (result) { return __awaiter(void 0, void 0, void 0, function () {
         var name;
@@ -86,7 +85,7 @@ export var LocationSearch = function () {
                     }
                 }, selectProps: {
                     onChange: HandleLocationSelected,
-                } }), _jsx(List, { children: _jsx(_Fragment, { children: selectedPlaces.map(function (place, index) {
+                } }), _jsx(List, { children: _jsx(_Fragment, { children: props.selectedPlaces.map(function (place, index) {
                         return _jsxs(ListItem, { children: [_jsx(ListItemText, { children: place.name }), _jsx(ListItemButton, { onClick: function () { RemoveSelectedPlace(index); }, children: _jsx(Close, {}) })] });
                     }) }) })] }));
 };

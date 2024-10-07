@@ -13,3 +13,49 @@ export var NORTH_WEST_GLH = "North West GLH/GMSA";
 export var NORTH_THAMES_GLH = "North Thames GLH/GMSA";
 export var SOUTH_EAST_GLH = "South East GLH/GMSA";
 export var SOUTH_WEST_GLH = "South West GLH/GMSA";
+export var CENTRAL_GLH_OBJ = {
+    name: CENTRAL_GLH,
+    color: CENTRAL_COL,
+};
+export var EAST_GLH_OBJ = {
+    name: EAST_GLH,
+    color: EAST_COL,
+};
+export var NORTH_EAST_GLH_OBJ = {
+    name: NORTH_EAST_GLH,
+    color: NORTH_EAST_COL,
+};
+export var NORTH_WEST_GLH_OBJ = {
+    name: NORTH_WEST_GLH,
+    color: NORTH_WEST_COL,
+};
+export var NORTH_THAMES_GLH_OBJ = {
+    name: NORTH_THAMES_GLH,
+    color: NORTH_THAMES_COL,
+};
+export var SOUTH_EAST_GLH_OBJ = {
+    name: SOUTH_EAST_GLH,
+    color: SOUTH_EAST_COL,
+};
+export var SOUTH_WEST_GLH_OBJ = {
+    name: SOUTH_WEST_GLH,
+    color: SOUTH_WEST_COL,
+};
+export var GLH_COL = {
+    CENTRAL_GLH: CENTRAL_GLH_OBJ,
+    EAST_GLH: EAST_GLH_OBJ,
+    NORTH_EAST_GLH: NORTH_EAST_GLH_OBJ,
+    NORTH_WEST_GLH: NORTH_WEST_GLH_OBJ,
+    NORTH_THAMES_GLH: NORTH_THAMES_GLH_OBJ,
+    SOUTH_EAST_GLH: SOUTH_EAST_GLH_OBJ,
+    SOUTH_WEST_GLH: SOUTH_WEST_GLH_OBJ
+};
+export var GLH_ARR = [
+    CENTRAL_GLH_OBJ,
+    EAST_GLH_OBJ,
+    NORTH_EAST_GLH_OBJ,
+    NORTH_WEST_GLH_OBJ,
+    NORTH_THAMES_GLH_OBJ,
+    SOUTH_EAST_GLH_OBJ,
+    SOUTH_WEST_GLH_OBJ
+];

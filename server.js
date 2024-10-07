@@ -17,7 +17,7 @@ app.get("*", function (req, res, next) {
     next();
 });
 app.get('/', function (req, res, next) {
-    res.sendFile(__dirname + "/views/index.html");
+    res.sendFile(__dirname + "/html/index.html");
     // res.send('<a href="/auth/google">Login with Google</a><a href="/logout">Log Out</a>')
 });
 //API endpoints

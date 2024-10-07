@@ -1,37 +1,29 @@
-import { GOOGLE_MAPS_API_KEY } from "../globals.js";
+import { GOOGLE_MAPS_API_KEY, Location,  LocationSearchResult } from "../globals.js";
 
 import { Dispatch, useRef, useEffect, useState } from "react";
 import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider, TextField, Box, Input, FormControl, OutlinedInput, List, ListItem, ListItemText, ListItemButton } from "@mui/material";
 
 import GooglePlacesAutocomplete, { geocodeByPlaceId, getLatLng } from 'react-google-places-autocomplete';
 import { Close } from "@mui/icons-material";
-import { LatLng } from "leaflet";
 
-interface SearchResult {
-  label: string,
-  value: google.maps.places.PlaceResult,
+interface LocationSearchProps {
+  selectedPlaces: Array<Location>;
+  setSelectedPlaces: Function;
 }
 
-interface Location {
-  name: string,
-  lat: number,
-  lng: number,
-}
-
-export const LocationSearch = () => {
+export const LocationSearch = (props: LocationSearchProps) => {
     const [searchKeyword, setSearchKeyword]: [string, Dispatch<string>] = useState<string>("");
-    const [selectedPlaces, setSelectedPlaces]: [Array<Location>, Dispatch<Array<Location>>] = useState<Array<Location>>([]);
     const AddSelectedPlace = (place: Location) => {
-      let newSelectedPlaces: Array<Location> = [...selectedPlaces];
+      let newSelectedPlaces: Array<Location> = [...props.selectedPlaces];
       newSelectedPlaces.push(place);
-      setSelectedPlaces(newSelectedPlaces);
+      props.setSelectedPlaces(newSelectedPlaces);
     }
     const RemoveSelectedPlace = (index: number) => {
-      let newSelectedPlaces: Array<Location> = [...selectedPlaces];
+      let newSelectedPlaces: Array<Location> = [...props.selectedPlaces];
       newSelectedPlaces.splice(index, 1);
-      setSelectedPlaces(newSelectedPlaces);
+      props.setSelectedPlaces(newSelectedPlaces);
     }
-    const HandleLocationSelected = async (result: SearchResult) => {
+    const HandleLocationSelected = async (result: LocationSearchResult) => {
       let name: string = result.label;
       console.log(result);
       geocodeByPlaceId(result!.value.place_id!)
@@ -59,7 +51,7 @@ export const LocationSearch = () => {
         }}/>
         <List>
           <>
-            {selectedPlaces.map((place, index) =>
+            {props.selectedPlaces.map((place, index) =>
               <ListItem>
                 <ListItemText>{place.name}</ListItemText>
                 <ListItemButton onClick={() => {RemoveSelectedPlace(index)}}><Close/></ListItemButton>
