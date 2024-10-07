@@ -1,1 +1,1 @@
-- Allow for multiple locations to be searched at once?
+- Tell what GeoJSON feature a point falls into

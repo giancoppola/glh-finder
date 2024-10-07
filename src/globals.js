@@ -1,4 +1,4 @@
-export var GOOGLE_MAPS_API_KEY = "AIzaSyDcpy_TjKDv6pyNgHDkGors7TQERSOE-GE";
+export var GOOGLE_MAPS_API_KEY = process.env.DEVELOPMENT_ENV === 'true' ? process.env.GOOGLE_API_KEY_DEV : process.env.GOOGLE_API_KEY_PROD;
 export var CENTRAL_COL = "#CDD9FF";
 export var EAST_COL = "#FBD0C9";
 export var NORTH_EAST_COL = "#E2C3FF";
