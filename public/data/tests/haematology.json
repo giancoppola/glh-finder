@@ -1,0 +1,34 @@
+{
+    "R361": {
+        "R361.1": {
+            "name": "Haemogloginopathy trait or carrier testing HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by Single gene sequencing",
+            "panel_app_no": null,
+            "category": "Specialist (not WGS or STR)",
+            "single_national_provider": false,
+            "routing": {
+                "North East & Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+                "North West GLH": ["North West GLH - Manchester University FT"],
+                "East GLH": ["North West GLH - Manchester University FT"],
+                "Central & South GLH": ["Central and South GLH - Oxford University FT"],
+                "South West GLH": ["Central and South GLH - Oxford University FT"],
+                "North Thames GLH": ["South East GLH - King's College FT"],
+                "South East GLH": ["South East GLH - King's College FT"]
+            }
+        },
+        "R361.2": {
+            "name": "Haemogloginopathy trait or carrier testing HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by MLPA or equivalent",
+            "panel_app_no": null,
+            "category": "Specialist (not WGS or STR)",
+            "single_national_provider": false,
+            "routing": {
+                "North East & Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+                "North West GLH": ["North West GLH - Manchester University FT"],
+                "East GLH": ["North West GLH - Manchester University FT"],
+                "Central & South GLH": ["Central and South GLH - Oxford University FT"],
+                "South West GLH": ["Central and South GLH - Oxford University FT"],
+                "North Thames GLH": ["South East GLH - King's College FT"],
+                "South East GLH": ["South East GLH - King's College FT"]
+            }
+        }
+    }
+}

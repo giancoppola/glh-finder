@@ -12,6 +12,6 @@ export var MapLegend = function (props) {
         }
     };
     return (_jsx(List, { children: GLH_ARR.map(function (GLH) {
-            return _jsxs(ListItemButton, { selected: props.selectedGLH === GLH.name, onClick: function () { return UpdateSelectedGLH(GLH.name); }, children: [_jsx(ListItemIcon, { children: _jsx(Circle, { htmlColor: GLH.color }) }), _jsx(ListItemText, { children: GLH.name })] });
+            return _jsxs(ListItemButton, { selected: props.selectedGLH === GLH.name, onClick: function () { return UpdateSelectedGLH(GLH.name); }, children: [_jsx(ListItemIcon, { children: _jsx(Circle, { htmlColor: GLH.color }) }), _jsx(ListItemText, { children: GLH.name })] }, "map-legend-".concat(GLH.name));
         }) }));
 };

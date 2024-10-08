@@ -128,7 +128,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Barking and Dagenham",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -322,7 +322,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bath and North East Somerset",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -708,7 +708,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bedfordshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -1114,7 +1114,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Berkshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -1244,7 +1244,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bexley",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -1342,7 +1342,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Blackburn with Darwen",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -1420,7 +1420,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bournemouth",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -1554,7 +1554,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Brent",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -1684,7 +1684,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Brighton and Hove",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -1814,7 +1814,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bristol",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -2004,7 +2004,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Bromley",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -2558,7 +2558,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Buckinghamshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -3152,7 +3152,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Cambridgeshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -3258,7 +3258,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Camden",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -3776,7 +3776,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Cheshire",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -6488,7 +6488,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Cornwall",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -6642,7 +6642,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Croydon",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -8298,7 +8298,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Cumbria",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -8492,7 +8492,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Darlington",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -9152,7 +9152,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Derbyshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -9226,7 +9226,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Derby",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -11268,7 +11268,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Devon",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -12260,7 +12260,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Dorset",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -12738,7 +12738,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Durham",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -12888,7 +12888,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Ealing",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -13620,7 +13620,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "East Riding of Yorkshire",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -14102,7 +14102,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "East Sussex",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -14292,7 +14292,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Enfield",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -15428,7 +15428,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Essex",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -16086,7 +16086,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Gloucestershire",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -16252,7 +16252,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Greenwich",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -16362,7 +16362,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hackney",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -16588,7 +16588,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Halton",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -16702,7 +16702,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hammersmith and Fulham",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -17646,7 +17646,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hampshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -17764,7 +17764,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Haringey",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -17874,7 +17874,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Harrow",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -18008,7 +18008,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hartlepool",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -18158,7 +18158,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Havering",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -18664,7 +18664,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Herefordshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -19162,7 +19162,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hertfordshire",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -19308,7 +19308,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hillingdon",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -19474,7 +19474,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Hounslow",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -19916,7 +19916,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Isle of Wight",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -20010,7 +20010,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Islington",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -20100,7 +20100,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Kensington and Chelsea",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -21260,7 +21260,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Kent",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -21354,7 +21354,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Kingston upon Hull",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -21452,7 +21452,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Kingston upon Thames",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -21570,7 +21570,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Lambeth",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -22404,7 +22404,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Lancashire",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -22864,7 +22864,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Leicestershire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -22918,7 +22918,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Leicester",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -23068,7 +23068,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Lewisham",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -24142,7 +24142,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Lincolnshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -24192,7 +24192,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "London",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -24286,7 +24286,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Luton",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -24676,7 +24676,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Manchester",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -25064,7 +25064,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Medway",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -25450,7 +25450,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Merseyside",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -25576,7 +25576,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Merton",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -25666,7 +25666,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Middlesbrough",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -25832,7 +25832,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Milton Keynes",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -25950,7 +25950,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Newham",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -26840,7 +26840,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Norfolk",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -27030,7 +27030,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "North East Lincolnshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -27462,7 +27462,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "North Lincolnshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -27764,7 +27764,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "North Somerset",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -29094,7 +29094,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "North Yorkshire",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -29588,7 +29588,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Northamptonshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -30604,7 +30604,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Northumberland",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -31112,7 +31112,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Nottinghamshire",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -31182,7 +31182,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Nottingham",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -31748,7 +31748,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Oxfordshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -31902,7 +31902,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Peterborough",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -32084,7 +32084,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Plymouth",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -32214,7 +32214,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Poole",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -32506,7 +32506,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Portsmouth",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -32652,7 +32652,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Redbridge",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -32882,7 +32882,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Redcar and Cleveland",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -33056,7 +33056,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Richmond upon Thames",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -33198,7 +33198,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Rutland",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -33888,7 +33888,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Shropshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -34726,7 +34726,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Somerset",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -34988,7 +34988,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "South Gloucestershire",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -35394,7 +35394,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "South Yorkshire",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -35508,7 +35508,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Southampton",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -35720,7 +35720,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Southend-on-Sea",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -35858,7 +35858,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Southwark",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -36552,7 +36552,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Staffordshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -36714,7 +36714,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Stockton-on-Tees",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -36800,7 +36800,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Stoke-on-Trent",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -37774,7 +37774,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Suffolk",
-                "GLH": "East GLH/GMSA"
+                "GLH": "East GLH"
             }
         },
         {
@@ -38144,7 +38144,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Surrey",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -38270,7 +38270,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Sutton",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -38408,7 +38408,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Swindon",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -38506,7 +38506,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Telford and Wrekin",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -38684,7 +38684,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Thurrock",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -38960,7 +38960,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Torbay",
-                "GLH": "South West GLH/GMSA"
+                "GLH": "South West GLH"
             }
         },
         {
@@ -39082,7 +39082,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Tower Hamlets",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -39396,7 +39396,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Tyne and Wear",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -39502,7 +39502,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Waltham Forest",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -39652,7 +39652,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Wandsworth",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -39786,7 +39786,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Warrington",
-                "GLH": "North West GLH/GMSA"
+                "GLH": "North West GLH"
             }
         },
         {
@@ -40324,7 +40324,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Warwickshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -40650,7 +40650,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "West Midlands",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -41292,7 +41292,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "West Sussex",
-                "GLH": "South East GLH/GMSA"
+                "GLH": "South East GLH"
             }
         },
         {
@@ -41730,7 +41730,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "West Yorkshire",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         },
         {
@@ -41844,7 +41844,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Westminster",
-                "GLH": "North Thames GLH/GMSA"
+                "GLH": "North Thames GLH"
             }
         },
         {
@@ -42406,7 +42406,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Wiltshire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -42952,7 +42952,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "Worcestershire",
-                "GLH": "Central and South GLH/GMSA"
+                "GLH": "Central and South GLH"
             }
         },
         {
@@ -43078,7 +43078,7 @@ export const UK = {
             },
             "properties": {
                 "AREA": "York",
-                "GLH": "North East and Yorkshire GLH/GMSA"
+                "GLH": "North East and Yorkshire GLH"
             }
         }
     ]

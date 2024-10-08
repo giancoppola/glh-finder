@@ -20,7 +20,7 @@ export const MapLegend = (props: MapLegendProps) => {
     return (
         <List>
             {GLH_ARR.map(GLH =>
-                <ListItemButton selected={props.selectedGLH === GLH.name}
+                <ListItemButton key={`map-legend-${GLH.name}`} selected={props.selectedGLH === GLH.name}
                 onClick={() => UpdateSelectedGLH(GLH.name)}>
                     <ListItemIcon>
                         <Circle htmlColor={GLH.color}/>

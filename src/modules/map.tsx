@@ -31,7 +31,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.8);
             setEastOpacity(0.8);
         }
-        else if (props.selectedGLH === "Central and South GLH/GMSA"){
+        else if (props.selectedGLH === "Central and South GLH"){
             setCentralOpacity(0.8);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -40,7 +40,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "South West GLH/GMSA") {
+        else if (props.selectedGLH === "South West GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.8);
             setSouthEastOpacity(0.2);
@@ -49,7 +49,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "South East GLH/GMSA") {
+        else if (props.selectedGLH === "South East GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.8);
@@ -58,7 +58,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "North Thames GLH/GMSA") {
+        else if (props.selectedGLH === "North Thames GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -67,7 +67,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if ((props.selectedGLH === "North East and Yorkshire GLH/GMSA")) {
+        else if ((props.selectedGLH === "North East and Yorkshire GLH")) {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -76,7 +76,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "North West GLH/GMSA") {
+        else if (props.selectedGLH === "North West GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -85,7 +85,7 @@ export const Map = (props: MapProps) => {
             setNorthWestOpacity(0.8);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "East GLH/GMSA") {
+        else if (props.selectedGLH === "East GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -109,7 +109,7 @@ export const Map = (props: MapProps) => {
                 )}
                 {UK.features.map((feature) => (
                     /* @ts-ignore */
-                    <GeoJSON data={feature} style={
+                    <GeoJSON key={`map-data-${feature.properties.AREA}`} data={feature} style={
                         function(feature) {
                             switch (feature!.properties.GLH) {
                                 case CENTRAL_GLH: return {color: CENTRAL_COL, fillOpacity: centralOpacity, opacity: centralOpacity}

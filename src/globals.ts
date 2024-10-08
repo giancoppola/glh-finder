@@ -8,16 +8,16 @@ export const NORTH_THAMES_COL: string = "#A1D8A6";
 export const SOUTH_EAST_COL: string = "#FDD0FC";
 export const SOUTH_WEST_COL: string = "#F8F2C0";
 
-export const CENTRAL_GLH: GLH_NAME = "Central and South GLH/GMSA";
-export const EAST_GLH: GLH_NAME = "East GLH/GMSA";
-export const NORTH_EAST_GLH: GLH_NAME = "North East and Yorkshire GLH/GMSA";
-export const NORTH_WEST_GLH: GLH_NAME = "North West GLH/GMSA";
-export const NORTH_THAMES_GLH: GLH_NAME = "North Thames GLH/GMSA";
-export const SOUTH_EAST_GLH: GLH_NAME = "South East GLH/GMSA";
-export const SOUTH_WEST_GLH: GLH_NAME = "South West GLH/GMSA";
+export const CENTRAL_GLH: GLH_NAME = "Central and South GLH";
+export const EAST_GLH: GLH_NAME = "East GLH";
+export const NORTH_EAST_GLH: GLH_NAME = "North East and Yorkshire GLH";
+export const NORTH_WEST_GLH: GLH_NAME = "North West GLH";
+export const NORTH_THAMES_GLH: GLH_NAME = "North Thames GLH";
+export const SOUTH_EAST_GLH: GLH_NAME = "South East GLH";
+export const SOUTH_WEST_GLH: GLH_NAME = "South West GLH";
 
-export type GLH_NAME = "Central and South GLH/GMSA" | "East GLH/GMSA" | "North East and Yorkshire GLH/GMSA"
-| "North West GLH/GMSA" | "North Thames GLH/GMSA" | "South East GLH/GMSA" | "South West GLH/GMSA" | "";
+export type GLH_NAME = "Central and South GLH" | "East GLH" | "North East and Yorkshire GLH"
+| "North West GLH" | "North Thames GLH" | "South East GLH" | "South West GLH" | "";
 
 export interface GLH {
     name: GLH_NAME;
@@ -84,4 +84,21 @@ export interface Location {
     lat: number,
     lng: number,
     formatted_add: string
+}
+
+export interface RoutingDetails {
+    [key: string]: Array<string>
+}
+export interface TestDetails {
+    name: string,
+    panel_app_no: number,
+    category: string,
+    single_national_provider: boolean,
+    routing: RoutingDetails,
+}
+// Test CI - Test Indication - Test Details
+export interface TestRoutingData {
+    [key: string]: {
+        [key: string]: TestDetails
+    }
 }

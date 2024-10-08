@@ -6,13 +6,13 @@ export var NORTH_WEST_COL = "#FDCD8F";
 export var NORTH_THAMES_COL = "#A1D8A6";
 export var SOUTH_EAST_COL = "#FDD0FC";
 export var SOUTH_WEST_COL = "#F8F2C0";
-export var CENTRAL_GLH = "Central and South GLH/GMSA";
-export var EAST_GLH = "East GLH/GMSA";
-export var NORTH_EAST_GLH = "North East and Yorkshire GLH/GMSA";
-export var NORTH_WEST_GLH = "North West GLH/GMSA";
-export var NORTH_THAMES_GLH = "North Thames GLH/GMSA";
-export var SOUTH_EAST_GLH = "South East GLH/GMSA";
-export var SOUTH_WEST_GLH = "South West GLH/GMSA";
+export var CENTRAL_GLH = "Central and South GLH";
+export var EAST_GLH = "East GLH";
+export var NORTH_EAST_GLH = "North East and Yorkshire GLH";
+export var NORTH_WEST_GLH = "North West GLH";
+export var NORTH_THAMES_GLH = "North Thames GLH";
+export var SOUTH_EAST_GLH = "South East GLH";
+export var SOUTH_WEST_GLH = "South West GLH";
 export var CENTRAL_GLH_OBJ = {
     name: CENTRAL_GLH,
     color: CENTRAL_COL,

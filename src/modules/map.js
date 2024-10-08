@@ -21,7 +21,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.8);
             setEastOpacity(0.8);
         }
-        else if (props.selectedGLH === "Central and South GLH/GMSA") {
+        else if (props.selectedGLH === "Central and South GLH") {
             setCentralOpacity(0.8);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -30,7 +30,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "South West GLH/GMSA") {
+        else if (props.selectedGLH === "South West GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.8);
             setSouthEastOpacity(0.2);
@@ -39,7 +39,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "South East GLH/GMSA") {
+        else if (props.selectedGLH === "South East GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.8);
@@ -48,7 +48,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "North Thames GLH/GMSA") {
+        else if (props.selectedGLH === "North Thames GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -57,7 +57,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if ((props.selectedGLH === "North East and Yorkshire GLH/GMSA")) {
+        else if ((props.selectedGLH === "North East and Yorkshire GLH")) {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -66,7 +66,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.2);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "North West GLH/GMSA") {
+        else if (props.selectedGLH === "North West GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -75,7 +75,7 @@ export var Map = function (props) {
             setNorthWestOpacity(0.8);
             setEastOpacity(0.2);
         }
-        else if (props.selectedGLH === "East GLH/GMSA") {
+        else if (props.selectedGLH === "East GLH") {
             setCentralOpacity(0.2);
             setSouthWestOpacity(0.2);
             setSouthEastOpacity(0.2);
@@ -99,5 +99,5 @@ export var Map = function (props) {
                         case NORTH_WEST_GLH: return { color: NORTH_WEST_COL, fillOpacity: northWestOpacity, opacity: northWestOpacity };
                         case EAST_GLH: return { color: EAST_COL, fillOpacity: eastOpacity, opacity: eastOpacity };
                     }
-                }, children: _jsxs(Popup, { children: [feature.properties.AREA, " - ", feature.properties.GLH] }) })); })] }));
+                }, children: _jsxs(Popup, { children: [feature.properties.AREA, " - ", feature.properties.GLH] }) }, "map-data-".concat(feature.properties.AREA))); })] }));
 };

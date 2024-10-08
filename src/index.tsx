@@ -5,6 +5,7 @@ import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider, Tex
 import { LocationSearch } from "./modules/location-search.js";
 import { MapView } from "./views/map-view.js";
 import { GLH_NAME, Location } from "./globals.js";
+import { TestRoutingForm } from "./modules/test-routing-form.js";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
@@ -20,6 +21,7 @@ const App = () => {
                     <Typography variant="h1" fontWeight='bolder'>GLH Mapper</Typography>
                     <MapView showMap={showMap} setShowMap={setShowMap} selectedPlaces={selectedPlaces}/>
                     <LocationSearch selectedPlaces={selectedPlaces} setSelectedPlaces={setSelectedPlaces}/>
+                    <TestRoutingForm/>
                 </Box>
             </ThemeProvider>
         </StrictMode>
