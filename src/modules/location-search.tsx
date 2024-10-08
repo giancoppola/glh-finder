@@ -13,7 +13,7 @@ interface LocationSearchProps {
 }
 
 export const LocationSearch = (props: LocationSearchProps) => {
-    const [searchKeyword, setSearchKeyword]: [string, Dispatch<string>] = useState<string>("");
+    const [selectedPlace, setSelectedPlace]: [Location | undefined, Dispatch<Location | undefined>] = useState<Location>();
     const { ref: placesAutocompleteRef } = usePlacesWidget({
       apiKey: GOOGLE_MAPS_API_KEY,
       options: {
@@ -23,19 +23,16 @@ export const LocationSearch = (props: LocationSearchProps) => {
         types: ['health'],
         fields: ['address_components', 'geometry.location', 'place_id', 'formatted_address', 'name']
       },
-      onPlaceSelected: (place) => AddSelectedPlace(place),
+      onPlaceSelected: (place) => setSelectedPlace({
+        name: place.name!,
+        lat: place.geometry?.location?.lat()!,
+        lng: place.geometry?.location?.lng()!,
+        formatted_add: place.formatted_address!,
+      }),
     })
-    const AddSelectedPlace = (place: google.maps.places.PlaceResult) => {
-      let name: string = JSON.parse(JSON.stringify(place.name!));
-      let lat: number = JSON.parse(JSON.stringify(place.geometry?.location?.lat()!));
-      let lng: number = JSON.parse(JSON.stringify(place.geometry?.location?.lng()!));
-      let newPlace: Location = {
-        name: name,
-        lat: lat,
-        lng: lng,
-      };
+    const AddSelectedPlace = (place: Location) => {
       let newSelectedPlaces: Array<Location> = [...props.selectedPlaces];
-      newSelectedPlaces.push(newPlace);
+      newSelectedPlaces.push(place);
       props.setSelectedPlaces(newSelectedPlaces);
     }
     const RemoveSelectedPlace = (index: number) => {
@@ -43,10 +40,15 @@ export const LocationSearch = (props: LocationSearchProps) => {
       newSelectedPlaces.splice(index, 1);
       props.setSelectedPlaces(newSelectedPlaces);
     }
+    useEffect(() => {
+      if (selectedPlace) {
+        AddSelectedPlace(selectedPlace);
+      }
+    }, [selectedPlace])
     return (
       <Box display='flex' flexDirection='column' justifyContent='center' alignItems='center' width='100%'>
         <Box width='50%'>
-          <Input fullWidth inputProps={{ref: placesAutocompleteRef}}></Input>
+          <OutlinedInput label="Location Search" placeholder="" fullWidth inputProps={{ref: placesAutocompleteRef}}/>
         </Box>
         <List>
           <>

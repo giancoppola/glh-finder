@@ -83,4 +83,5 @@ export interface Location {
     name: string,
     lat: number,
     lng: number,
+    formatted_add: string
 }
