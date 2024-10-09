@@ -17,11 +17,11 @@ const App = () => {
         <StrictMode>
             <ThemeProvider theme={theme}>
                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center"
-                width='100%' height='100%' gap='2rem'>
+                width='100%' height='100%' gap='2rem' maxWidth='1200px' margin='auto'>
                     <Typography variant="h1" fontWeight='bolder'>GLH Mapper</Typography>
                     <MapView showMap={showMap} setShowMap={setShowMap} selectedPlaces={selectedPlaces}/>
                     <LocationSearch selectedPlaces={selectedPlaces} setSelectedPlaces={setSelectedPlaces}/>
-                    <TestRoutingForm/>
+                    { selectedPlaces.length > 0 && <TestRoutingForm/> }
                 </Box>
             </ThemeProvider>
         </StrictMode>

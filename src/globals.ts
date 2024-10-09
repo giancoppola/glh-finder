@@ -90,6 +90,7 @@ export interface RoutingDetails {
     [key: string]: Array<string>
 }
 export interface TestDetails {
+    [key: string]: any,
     name: string,
     panel_app_no: number,
     category: string,

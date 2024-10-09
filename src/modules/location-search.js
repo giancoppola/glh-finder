@@ -10,11 +10,12 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 import { GOOGLE_MAPS_API_KEY } from "../globals.js";
 import { useEffect, useState } from "react";
-import { Box, OutlinedInput, List, ListItem, ListItemText, ListItemButton } from "@mui/material";
-import { Close } from "@mui/icons-material";
+import { TextField, Box, List, ListItem, ListItemText, ListItemButton, InputAdornment, ListItemIcon } from "@mui/material";
+import { Close, Search } from "@mui/icons-material";
 import { usePlacesWidget, } from "react-google-autocomplete";
 export var LocationSearch = function (props) {
-    var _a = useState(), selectedPlace = _a[0], setSelectedPlace = _a[1];
+    var _a = useState(''), searchValue = _a[0], setSearchValue = _a[1];
+    var _b = useState(null), selectedPlace = _b[0], setSelectedPlace = _b[1];
     var placesAutocompleteRef = usePlacesWidget({
         apiKey: GOOGLE_MAPS_API_KEY,
         options: {
@@ -46,10 +47,15 @@ export var LocationSearch = function (props) {
     };
     useEffect(function () {
         if (selectedPlace) {
+            setSearchValue('');
             AddSelectedPlace(selectedPlace);
         }
     }, [selectedPlace]);
-    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', children: [_jsx(Box, { width: '50%', children: _jsx(OutlinedInput, { label: "Location Search", placeholder: "", fullWidth: true, inputProps: { ref: placesAutocompleteRef } }) }), _jsx(List, { children: _jsx(_Fragment, { children: props.selectedPlaces.map(function (place, index) {
-                        return _jsxs(ListItem, { style: { gap: '1rem' }, children: [_jsx(ListItemText, { children: place.name }), _jsx(ListItemButton, { onClick: function () { RemoveSelectedPlace(index); }, children: _jsx(Close, {}) })] }, "location-list-".concat(index, "-").concat(place.name));
-                    }) }) })] }));
+    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', children: [_jsx(Box, { width: '50%', children: _jsx(TextField, { disabled: props.selectedPlaces.length > 0, label: "Location Search", placeholder: "Search for a location", fullWidth: true, value: searchValue, onChange: function (e) { setSearchValue(e.target.value); }, slotProps: {
+                        htmlInput: { ref: placesAutocompleteRef },
+                        input: { endAdornment: _jsx(InputAdornment, { position: 'end', children: _jsx(Search, {}) })
+                        }
+                    } }) }), _jsx(Box, { width: '50%', children: _jsx(List, { children: _jsx(_Fragment, { children: props.selectedPlaces.map(function (place, index) {
+                            return _jsx(ListItem, { disablePadding: true, children: _jsxs(ListItemButton, { onClick: function () { RemoveSelectedPlace(index); }, children: [_jsx(ListItemText, { primary: place.name, secondary: place.formatted_add }), _jsx(ListItemIcon, { sx: { justifyContent: 'flex-end' }, children: _jsx(Close, {}) })] }) }, "location-list-".concat(index, "-").concat(place.name));
+                        }) }) }) })] }));
 };
