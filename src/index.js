@@ -31,8 +31,11 @@ var App = function () {
             //     console.log(geoContains(feature, [selectedPlaces[0].lng, selectedPlaces[0].lat]))
             // }
         }
+        else {
+            setPlaceGLH("");
+        }
     }, [selectedPlaces]);
-    return (_jsx(StrictMode, { children: _jsx(ThemeProvider, { theme: theme, children: _jsxs(Box, { display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: '100%', height: '100%', gap: '2rem', maxWidth: '1200px', margin: 'auto', children: [_jsx(Typography, { variant: "h1", fontWeight: 'bolder', children: "GLH Mapper" }), _jsx(MapView, { showMap: showMap, setShowMap: setShowMap, selectedPlaces: selectedPlaces }), _jsx(LocationSearch, { selectedPlaces: selectedPlaces, setSelectedPlaces: setSelectedPlaces }), selectedPlaces.length > 0 && _jsx(TestRoutingForm, { placeGLH: placeGLH })] }) }) }));
+    return (_jsx(StrictMode, { children: _jsx(ThemeProvider, { theme: theme, children: _jsxs(Box, { display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: '100%', height: '100%', gap: '2rem', maxWidth: '1200px', margin: 'auto', children: [_jsx(Typography, { variant: "h1", fontWeight: 'bolder', children: "GLH Mapper" }), _jsx(MapView, { showMap: showMap, setShowMap: setShowMap, selectedPlaces: selectedPlaces, placeGLH: placeGLH }), _jsx(LocationSearch, { selectedPlaces: selectedPlaces, setSelectedPlaces: setSelectedPlaces }), selectedPlaces.length > 0 && _jsx(TestRoutingForm, { placeGLH: placeGLH })] }) }) }));
 };
 var root = createRoot(document.getElementById("app"));
 root.render(_jsx(App, {}));

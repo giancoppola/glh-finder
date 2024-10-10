@@ -70,7 +70,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                     <TableContainer>
                         <Table>
                             <TableRow>
-                                <TableCell>Send To</TableCell>
+                                <TableCell>Routing</TableCell>
                                 {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).routing[props.placeGLH].map(option =>
                                     <TableCell>{option}</TableCell>
                                 )}

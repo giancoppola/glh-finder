@@ -9,10 +9,14 @@ interface MapViewProps {
     showMap: boolean;
     setShowMap: Function;
     selectedPlaces: Array<Location>;
+    placeGLH: GLH_NAME;
 }
 
 export const MapView = (props: MapViewProps) => {
     const [selectedGLH, setSelectedGLH]: [GLH_NAME, Dispatch<GLH_NAME>] = useState<GLH_NAME>("");
+    useEffect(() => {
+        setSelectedGLH(props.placeGLH);
+    }, [props.placeGLH])
     return (
         <Box display='flex' gap='1rem' justifyContent='center' alignItems='center'>
             <MapLegend selectedGLH={selectedGLH} setSelectedGLH={setSelectedGLH}/>

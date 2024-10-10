@@ -35,6 +35,9 @@ const App = () => {
             //     console.log(geoContains(feature, [selectedPlaces[0].lng, selectedPlaces[0].lat]))
             // }
         }
+        else {
+            setPlaceGLH("");
+        }
     }, [selectedPlaces])
     return (
         <StrictMode>
@@ -42,7 +45,7 @@ const App = () => {
                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center"
                 width='100%' height='100%' gap='2rem' maxWidth='1200px' margin='auto'>
                     <Typography variant="h1" fontWeight='bolder'>GLH Mapper</Typography>
-                    <MapView showMap={showMap} setShowMap={setShowMap} selectedPlaces={selectedPlaces}/>
+                    <MapView showMap={showMap} setShowMap={setShowMap} selectedPlaces={selectedPlaces} placeGLH={placeGLH}/>
                     <LocationSearch selectedPlaces={selectedPlaces} setSelectedPlaces={setSelectedPlaces}/>
                     { selectedPlaces.length > 0 && <TestRoutingForm placeGLH={placeGLH}/> }
                 </Box>
