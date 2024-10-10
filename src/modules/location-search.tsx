@@ -50,7 +50,7 @@ export const LocationSearch = (props: LocationSearchProps) => {
   }, [selectedPlace])
   return (
     <Box display='flex' flexDirection='column' justifyContent='center' alignItems='center' width='100%'>
-      <Box width='50%'>
+      <Box width='80%'>
         {/* <OutlinedInput label="Location Search" placeholder="Search for a location" fullWidth
         inputProps={{ref: placesAutocompleteRef}} endAdornment={<Search/>}/> */}
         <TextField disabled={props.selectedPlaces.length > 0} label="Location Search" placeholder="Search for a location" fullWidth
@@ -64,7 +64,7 @@ export const LocationSearch = (props: LocationSearchProps) => {
           }
         }}/>
       </Box>
-      <Box width='50%'>
+      <Box width='80%'>
         <List>
           <>
             {props.selectedPlaces.map((place, index) =>

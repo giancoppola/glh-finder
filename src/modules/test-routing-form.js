@@ -1,11 +1,7 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Typography, Box, Select, MenuItem, FormControl, InputLabel } from "@mui/material";
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import { Typography, Box, Select, MenuItem, FormControl, InputLabel, TableContainer, Table, TableRow, TableCell, Toolbar } from "@mui/material";
 import { useEffect, useState } from "react";
-// interface TestRoutingFormProps {
-//     selectedGLH: GLH_NAME;
-//     setSelectedGLH: Function;
-// }
-export var TestRoutingForm = function () {
+export var TestRoutingForm = function (props) {
     var _a = useState({}), testRoutingData = _a[0], setTestRoutingData = _a[1];
     var _b = useState(''), selectedSpecialty = _b[0], setSelectedSpecialty = _b[1];
     var _c = useState(''), selectedCI = _c[0], setSelectedCI = _c[1];
@@ -16,7 +12,7 @@ export var TestRoutingForm = function () {
             .then(function (data) { setTestRoutingData(data); console.log(data); })
             .catch(function (error) { console.log(error); });
     }, []);
-    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', gap: '1rem', width: '80%', children: [_jsx(Typography, { variant: 'h3', children: "Test Routing" }), _jsxs(FormControl, { fullWidth: true, children: [_jsx(InputLabel, { children: "Specialty" }), _jsx(Select, { value: selectedSpecialty, label: "Specialty", onChange: function (e) { return setSelectedSpecialty(e.target.value); }, children: Object.keys(testRoutingData).map(function (specialty) {
+    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', gap: '1rem', width: '80%', children: [_jsx(Toolbar, { children: _jsx(Typography, { variant: 'h4', children: "What test are you sending?" }) }), _jsxs(FormControl, { fullWidth: true, children: [_jsx(InputLabel, { children: "Specialty" }), _jsx(Select, { value: selectedSpecialty, label: "Specialty", onChange: function (e) { return setSelectedSpecialty(e.target.value); }, children: Object.keys(testRoutingData).map(function (specialty) {
                             return _jsx(MenuItem, { value: specialty, children: specialty });
                         }) })] }), _jsxs(FormControl, { fullWidth: true, children: [_jsx(InputLabel, { children: "CI" }), _jsx(Select, { disabled: !selectedSpecialty, value: selectedCI, label: "CI", onChange: function (e) { return setSelectedCI(e.target.value); }, children: selectedSpecialty &&
                             Object.keys(testRoutingData[selectedSpecialty]).map(function (ci) {
@@ -25,5 +21,13 @@ export var TestRoutingForm = function () {
                             Object.keys(testRoutingData[selectedSpecialty][selectedCI]).map(function (test_indication) {
                                 return _jsx(MenuItem, { value: test_indication, children: test_indication });
                             }) })] }), selectedTestIndication &&
-                _jsxs(Box, { children: [_jsxs(Typography, { children: ["Test Name: ", testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].name] }), _jsxs(Typography, { children: ["Panel App No: ", testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].panel_app_no === null ? 'N/A' : testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].panel_app_no] }), _jsxs(Typography, { children: ["Test Category: ", testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].category] }), _jsxs(Typography, { children: ["Single National Provider: ", testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].single_national_provider === true ? "Yes" : "No"] })] })] }));
+                // <Box>
+                //     <Typography>Test Name: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).name}</Typography>
+                //     <Typography>Panel App No: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no === null ? 'N/A' : (testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no}</Typography>
+                //     <Typography>Test Category: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).category}</Typography>
+                //     <Typography>Single National Provider: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).single_national_provider === true ? "Yes" : "No"}</Typography>
+                // </Box>
+                _jsxs(_Fragment, { children: [_jsx(Toolbar, { children: _jsx(Typography, { variant: "h4", children: "Test Details" }) }), _jsx(TableContainer, { children: _jsxs(Table, { children: [_jsxs(TableRow, { children: [_jsx(TableCell, { children: "Send To" }), testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].routing[props.placeGLH].map(function (option) {
+                                                return _jsx(TableCell, { children: option });
+                                            })] }), _jsxs(TableRow, { children: [_jsx(TableCell, { children: "Test Name" }), _jsx(TableCell, { children: testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].name })] }), _jsxs(TableRow, { children: [_jsx(TableCell, { children: "Panel App No" }), _jsx(TableCell, { children: testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].panel_app_no === null ? 'N/A' : testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].panel_app_no })] }), _jsxs(TableRow, { children: [_jsx(TableCell, { children: "Test Category" }), _jsx(TableCell, { children: testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].category })] }), _jsxs(TableRow, { children: [_jsx(TableCell, { children: "Single National Provider" }), _jsx(TableCell, { children: testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication].single_national_provider === true ? "Yes" : "No" })] })] }) })] })] }));
 };
