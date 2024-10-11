@@ -1,2 +1,3 @@
-- Tell what GeoJSON feature a point falls into
 - Swap to using Local Authority Districts data
+- Finish up testing data JSON
+- Improve the design

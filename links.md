@@ -6,4 +6,4 @@
 - Autocomplete Data API Reference - https://developers.google.com/maps/documentation/javascript/reference/autocomplete-data
 <!-- - Places Autocomplete React - https://tintef.github.io/react-google-places-autocomplete -->
 - Places Autocomplete React Ref - https://www.npmjs.com/package/react-google-autocomplete
-- Checking if point is in GeoJSON feature - https://d3js.org/d3-geo/math
+- Checking if point is in GeoJSON feature - https://www.npmjs.com/package/@turf/boolean-point-in-polygon

@@ -2,13 +2,15 @@ import { ChangeEvent, Dispatch, StrictMode, useEffect, useState } from "react";
 import { createRoot } from 'react-dom/client'
 import { Typography, Theme, createTheme, responsiveFontSizes, ThemeProvider, TextField, Box } from "@mui/material";
 
-import { geoContains } from "d3-geo";
+import { booleanPointInPolygon } from "@turf/boolean-point-in-polygon";
 
 import { LocationSearch } from "./modules/location-search.js";
 import { MapView } from "./views/map-view.js";
 import { GLH_NAME, Location } from "./globals.js";
 import { TestRoutingForm } from "./modules/test-routing-form.js";
 import { UK } from "./map-data.js";
+import { Polygon } from "leaflet";
+import { Footer } from "./modules/footer.js";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
@@ -20,20 +22,11 @@ const App = () => {
     useEffect(() => {
         if (selectedPlaces.length > 0) {
             UK.features.forEach((feature) => {
-                // console.log(geoContains(feature as GeoJSON.Feature, [selectedPlaces[0].lng, selectedPlaces[0].lat]))
-                if (!geoContains(feature as GeoJSON.Feature, [selectedPlaces[0].lng, selectedPlaces[0].lat])) {
+                // @ts-ignore - doesn't recognise feature as a GeoJSON Feature Polygon even though it is
+                if (booleanPointInPolygon([selectedPlaces[0].lng, selectedPlaces[0].lat], feature)) {
                     setPlaceGLH(feature.properties.GLH as GLH_NAME);
                 }
             })
-            // for(const feature of UK.features) {
-            //     // @ts-ignore
-            //     // if(geoContains(feature, [selectedPlaces[0].lng, selectedPlaces[0].lat])) {
-            //     //     setPlaceGLH(feature.properties.GLH as GLH_NAME);
-            //     //     console.log(feature.properties.GLH);
-            //     // }
-            //     // @ts-ignore
-            //     console.log(geoContains(feature, [selectedPlaces[0].lng, selectedPlaces[0].lat]))
-            // }
         }
         else {
             setPlaceGLH("");
@@ -49,6 +42,7 @@ const App = () => {
                     <LocationSearch selectedPlaces={selectedPlaces} setSelectedPlaces={setSelectedPlaces}/>
                     { selectedPlaces.length > 0 && <TestRoutingForm placeGLH={placeGLH}/> }
                 </Box>
+                <Footer/>
             </ThemeProvider>
         </StrictMode>
     )

@@ -12,7 +12,7 @@ export var TestRoutingForm = function (props) {
             .then(function (data) { setTestRoutingData(data); console.log(data); })
             .catch(function (error) { console.log(error); });
     }, []);
-    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', gap: '1rem', width: '80%', children: [_jsx(Toolbar, { children: _jsx(Typography, { variant: 'h4', children: "What test are you sending?" }) }), _jsxs(FormControl, { fullWidth: true, children: [_jsx(InputLabel, { children: "Specialty" }), _jsx(Select, { value: selectedSpecialty, label: "Specialty", onChange: function (e) { return setSelectedSpecialty(e.target.value); }, children: Object.keys(testRoutingData).map(function (specialty) {
+    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', gap: '1rem', width: '80%', marginBottom: '2rem', children: [_jsx(Toolbar, { children: _jsx(Typography, { variant: 'h4', children: "What test are you sending?" }) }), _jsxs(FormControl, { fullWidth: true, children: [_jsx(InputLabel, { children: "Specialty" }), _jsx(Select, { value: selectedSpecialty, label: "Specialty", onChange: function (e) { return setSelectedSpecialty(e.target.value); }, children: Object.keys(testRoutingData).map(function (specialty) {
                             return _jsx(MenuItem, { value: specialty, children: specialty });
                         }) })] }), _jsxs(FormControl, { fullWidth: true, children: [_jsx(InputLabel, { children: "CI" }), _jsx(Select, { disabled: !selectedSpecialty, value: selectedCI, label: "CI", onChange: function (e) { return setSelectedCI(e.target.value); }, children: selectedSpecialty &&
                             Object.keys(testRoutingData[selectedSpecialty]).map(function (ci) {

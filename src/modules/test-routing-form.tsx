@@ -19,7 +19,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
         .catch((error) => {console.log(error)})
     }, [])
     return (
-        <Box display='flex' flexDirection='column' gap='1rem' width='80%'>
+        <Box display='flex' flexDirection='column' gap='1rem' width='80%' marginBottom='2rem'>
             <Toolbar>
                 <Typography variant='h4'>What test are you sending?</Typography>
             </Toolbar>
