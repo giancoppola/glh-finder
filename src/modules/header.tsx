@@ -8,7 +8,7 @@ export const Header = () => {
                 <Toolbar disableGutters sx={{ justifyContent: 'space-between' }}>
                     <Typography variant="h5" fontWeight='bold'>GLH Mapper</Typography>
                     <MenuItem component='a' href="https://www.linkedin.com/in/giancoppola/" target="_blank">
-                        Found an issue? Contact me
+                        Found an issue?
                     </MenuItem>
                 </Toolbar>
             </Container>

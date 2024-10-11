@@ -1,3 +1,2 @@
 - Swap to using Local Authority Districts data
-- Finish up testing data JSON
-- Improve the design
+- Improve the responsive design
