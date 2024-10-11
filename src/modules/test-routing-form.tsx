@@ -12,12 +12,28 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
     const [selectedSpecialty, setSelectedSpecialty]: [string, Dispatch<string>] = useState<string>('');
     const [selectedCI, setSelectedCI]: [string, Dispatch<string>] = useState<string>('');
     const [selectedTestIndication, setSelectedTestIndication]: [string, Dispatch<string>] = useState<string>('');
+    const [showDetails, setShowDetails]: [boolean, Dispatch<boolean>] = useState<boolean>(false);
     useEffect(() => {
         fetch("/data/tests/test-routing.json")
         .then((res) => res.json())
         .then((data) => {setTestRoutingData(data); console.log(data)})
         .catch((error) => {console.log(error)})
     }, [])
+    const HandleSetSpecialty = (specialty: string) => {
+        setSelectedSpecialty(specialty);
+        setSelectedCI('');
+        setSelectedTestIndication('');
+        setShowDetails(false);
+    }
+    const HandleSetCI = (ci: string) => {
+        setSelectedCI(ci);
+        setSelectedTestIndication('')
+        setShowDetails(false);
+    }
+    const HandleSetTestIndication = (testIndication: string) => {
+        setSelectedTestIndication(testIndication);
+        setShowDetails(true);
+    }
     return (
         <Box display='flex' flexDirection='column' gap='1rem' width='80%' marginBottom='2rem'>
             <Toolbar>
@@ -26,7 +42,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
             <FormControl fullWidth>
                 <InputLabel>Specialty</InputLabel>
                 <Select value={selectedSpecialty} label="Specialty"
-                onChange={(e) => setSelectedSpecialty(e.target.value as string)}>
+                onChange={(e) => HandleSetSpecialty(e.target.value as string)}>
                     {
                         Object.keys(testRoutingData).map((specialty) =>
                             <MenuItem value={specialty}>{specialty}</MenuItem>
@@ -37,7 +53,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
             <FormControl fullWidth>
                 <InputLabel>CI</InputLabel>
                 <Select disabled={!selectedSpecialty} value={selectedCI} label="CI"
-                onChange={(e) => setSelectedCI(e.target.value as string)}>
+                onChange={(e) => HandleSetCI(e.target.value as string)}>
                     { selectedSpecialty &&
                         Object.keys(testRoutingData[selectedSpecialty]).map((ci) =>
                             <MenuItem value={ci}>{ci}</MenuItem>
@@ -48,7 +64,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
             <FormControl fullWidth>
                 <InputLabel>Test Indication</InputLabel>
                 <Select disabled={!selectedCI} value={selectedTestIndication} label="Test Indication"
-                onChange={(e) => setSelectedTestIndication(e.target.value as string)}>
+                onChange={(e) => HandleSetTestIndication(e.target.value as string)}>
                     { selectedCI &&
                         Object.keys(testRoutingData[selectedSpecialty][selectedCI]).map((test_indication) =>
                             <MenuItem value={test_indication}>{test_indication}</MenuItem>
@@ -56,13 +72,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                     }
                 </Select>
             </FormControl>
-            { selectedTestIndication &&
-                // <Box>
-                //     <Typography>Test Name: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).name}</Typography>
-                //     <Typography>Panel App No: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no === null ? 'N/A' : (testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no}</Typography>
-                //     <Typography>Test Category: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).category}</Typography>
-                //     <Typography>Single National Provider: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).single_national_provider === true ? "Yes" : "No"}</Typography>
-                // </Box>
+            { showDetails &&
                 <>
                     <Toolbar>
                         <Typography variant="h4">Test Details</Typography>

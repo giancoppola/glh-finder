@@ -7,3 +7,4 @@
 <!-- - Places Autocomplete React - https://tintef.github.io/react-google-places-autocomplete -->
 - Places Autocomplete React Ref - https://www.npmjs.com/package/react-google-autocomplete
 - Checking if point is in GeoJSON feature - https://www.npmjs.com/package/@turf/boolean-point-in-polygon
+- Easy JSON templates - https://www.objgen.com/json/local/design

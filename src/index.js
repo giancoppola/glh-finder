@@ -1,13 +1,13 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { StrictMode, useEffect, useState } from "react";
 import { createRoot } from 'react-dom/client';
-import { Typography, createTheme, responsiveFontSizes, ThemeProvider, Box } from "@mui/material";
+import { createTheme, responsiveFontSizes, ThemeProvider, Box } from "@mui/material";
 import { booleanPointInPolygon } from "@turf/boolean-point-in-polygon";
 import { LocationSearch } from "./modules/location-search.js";
 import { MapView } from "./views/map-view.js";
 import { TestRoutingForm } from "./modules/test-routing-form.js";
 import { UK } from "./map-data.js";
-import { Footer } from "./modules/footer.js";
+import { Header } from "./modules/header.js";
 var theme = createTheme({});
 theme = responsiveFontSizes(theme);
 var App = function () {
@@ -27,7 +27,7 @@ var App = function () {
             setPlaceGLH("");
         }
     }, [selectedPlaces]);
-    return (_jsx(StrictMode, { children: _jsxs(ThemeProvider, { theme: theme, children: [_jsxs(Box, { display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: '100%', height: '100%', gap: '2rem', maxWidth: '1200px', margin: 'auto', children: [_jsx(Typography, { variant: "h1", fontWeight: 'bolder', children: "GLH Mapper" }), _jsx(MapView, { showMap: showMap, setShowMap: setShowMap, selectedPlaces: selectedPlaces, placeGLH: placeGLH }), _jsx(LocationSearch, { selectedPlaces: selectedPlaces, setSelectedPlaces: setSelectedPlaces }), selectedPlaces.length > 0 && _jsx(TestRoutingForm, { placeGLH: placeGLH })] }), _jsx(Footer, {})] }) }));
+    return (_jsx(StrictMode, { children: _jsxs(ThemeProvider, { theme: theme, children: [_jsx(Header, {}), _jsxs(Box, { display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: '100%', height: '100%', gap: '2rem', maxWidth: '1200px', margin: 'auto', children: [_jsx(MapView, { showMap: showMap, setShowMap: setShowMap, selectedPlaces: selectedPlaces, placeGLH: placeGLH }), _jsx(LocationSearch, { selectedPlaces: selectedPlaces, setSelectedPlaces: setSelectedPlaces }), selectedPlaces.length > 0 && _jsx(TestRoutingForm, { placeGLH: placeGLH })] })] }) }));
 };
 var root = createRoot(document.getElementById("app"));
 root.render(_jsx(App, {}));

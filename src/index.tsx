@@ -10,7 +10,7 @@ import { GLH_NAME, Location } from "./globals.js";
 import { TestRoutingForm } from "./modules/test-routing-form.js";
 import { UK } from "./map-data.js";
 import { Polygon } from "leaflet";
-import { Footer } from "./modules/footer.js";
+import { Header } from "./modules/header.js";
 
 let theme: Theme = createTheme({});
 theme = responsiveFontSizes(theme);
@@ -35,14 +35,13 @@ const App = () => {
     return (
         <StrictMode>
             <ThemeProvider theme={theme}>
+                <Header/>
                 <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center"
                 width='100%' height='100%' gap='2rem' maxWidth='1200px' margin='auto'>
-                    <Typography variant="h1" fontWeight='bolder'>GLH Mapper</Typography>
                     <MapView showMap={showMap} setShowMap={setShowMap} selectedPlaces={selectedPlaces} placeGLH={placeGLH}/>
                     <LocationSearch selectedPlaces={selectedPlaces} setSelectedPlaces={setSelectedPlaces}/>
                     { selectedPlaces.length > 0 && <TestRoutingForm placeGLH={placeGLH}/> }
                 </Box>
-                <Footer/>
             </ThemeProvider>
         </StrictMode>
     )
