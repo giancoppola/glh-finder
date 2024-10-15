@@ -1,7 +1,6 @@
 import { ChangeEvent, Dispatch, StrictMode, useEffect, useState } from "react";
 
 import { MapContainer, Marker, Popup, TileLayer, useMap, GeoJSON } from 'react-leaflet'
-import { UK } from "../map-data.js";
 import { CENTRAL_COL, CENTRAL_GLH, EAST_COL, EAST_GLH, GLH_ARR, NORTH_EAST_COL, NORTH_EAST_GLH, NORTH_THAMES_COL, NORTH_THAMES_GLH, NORTH_WEST_COL, NORTH_WEST_GLH, SOUTH_EAST_COL, SOUTH_EAST_GLH, SOUTH_WEST_COL, SOUTH_WEST_GLH, GLH_NAME } from "../globals.js";
 
 import { Location } from "../globals.js";
@@ -9,6 +8,7 @@ import { Box, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
 import { Circle } from "@mui/icons-material";
 
 interface MapProps {
+    mapData: GeoJSON.FeatureCollection;
     selectedGLH: GLH_NAME;
     selectedPlaces: Array<Location>;
 }
@@ -101,13 +101,13 @@ export const Map = (props: MapProps) => {
                 bounds={[[49.289, -6.636],[56.907, 2.817]]}
                 minZoom={6} maxNativeZoom={18} maxZoom={100}/>
                 {props.selectedPlaces.map((place) =>
-                    <Marker position={[place.lat, place.lng]}>
+                    <Marker key={`map-marker-${place.name}`} position={[place.lat, place.lng]}>
                         <Popup>
                             {place.name}
                         </Popup>
                     </Marker>
                 )}
-                {UK.features.map((feature) => (
+                {props.mapData.features.map((feature) => (
                     /* @ts-ignore */
                     <GeoJSON key={`map-data-${feature.properties.AREA}`} data={feature} style={
                         function(feature) {
@@ -123,7 +123,7 @@ export const Map = (props: MapProps) => {
                         }
                     }>
                         <Popup>
-                            {feature.properties.AREA} - {feature.properties.GLH}
+                            {feature.properties!.AREA} - {feature.properties!.GLH}
                         </Popup>
                     </GeoJSON>
                 ))}

@@ -1,4 +1,4 @@
-import { Typography, Box, Select, MenuItem, FormControl, InputLabel, TableContainer, Table, TableRow, TableCell, TableHead, Toolbar } from "@mui/material";
+import { Typography, Box, Select, MenuItem, FormControl, InputLabel, TableContainer, Table, TableRow, TableCell, TableHead, Toolbar, TableBody } from "@mui/material";
 import { GLH_NAME, TestDetails, TestRoutingData } from "../globals.js"
 
 import { Dispatch, useRef, useEffect, useState } from "react";
@@ -45,7 +45,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                 onChange={(e) => HandleSetSpecialty(e.target.value as string)}>
                     {
                         Object.keys(testRoutingData).map((specialty) =>
-                            <MenuItem value={specialty}>{specialty}</MenuItem>
+                            <MenuItem key={`specialty-${specialty}`} value={specialty}>{specialty}</MenuItem>
                         )
                     }
                 </Select>
@@ -56,7 +56,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                 onChange={(e) => HandleSetCI(e.target.value as string)}>
                     { selectedSpecialty &&
                         Object.keys(testRoutingData[selectedSpecialty]).map((ci) =>
-                            <MenuItem value={ci}>{ci}</MenuItem>
+                            <MenuItem key={`ci-${ci}`} value={ci}>{ci}</MenuItem>
                         )
                     }
                 </Select>
@@ -67,7 +67,7 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                 onChange={(e) => HandleSetTestIndication(e.target.value as string)}>
                     { selectedCI &&
                         Object.keys(testRoutingData[selectedSpecialty][selectedCI]).map((test_indication) =>
-                            <MenuItem value={test_indication}>{test_indication}</MenuItem>
+                            <MenuItem key={`test_indication-${test_indication}`} value={test_indication}>{test_indication}</MenuItem>
                         )
                     }
                 </Select>
@@ -79,28 +79,30 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                     </Toolbar>
                     <TableContainer>
                         <Table>
-                            <TableRow>
-                                <TableCell>Routing</TableCell>
-                                {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).routing[props.placeGLH].map(option =>
-                                    <TableCell>{option}</TableCell>
-                                )}
-                            </TableRow>
-                            <TableRow>
-                                <TableCell>Test Name</TableCell>
-                                <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).name}</TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell>Panel App No</TableCell>
-                                <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no === null ? 'N/A' : (testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no}</TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell>Test Category</TableCell>
-                                <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).category}</TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell>Single National Provider</TableCell>
-                                <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).single_national_provider === true ? "Yes" : "No"}</TableCell>
-                            </TableRow>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell>Routing</TableCell>
+                                    {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).routing[props.placeGLH].map(option =>
+                                        <TableCell key={`routing_option-${option}`}>{option}</TableCell>
+                                    )}
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>Test Name</TableCell>
+                                    <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).name}</TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>Panel App No</TableCell>
+                                    <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no === null ? 'N/A' : (testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no}</TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>Test Category</TableCell>
+                                    <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).category}</TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>Single National Provider</TableCell>
+                                    <TableCell>{(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).single_national_provider === true ? "Yes" : "No"}</TableCell>
+                                </TableRow>
+                            </TableBody>
                         </Table>
                     </TableContainer>
                 </>

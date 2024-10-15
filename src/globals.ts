@@ -103,3 +103,8 @@ export interface TestRoutingData {
         [key: string]: TestDetails
     }
 }
+
+export interface LocationProperties {
+    AREA: string,
+    GLH: GLH_NAME
+}
