@@ -1,2 +1,0 @@
-- Swap to using Local Authority Districts data
-- Improve the responsive design

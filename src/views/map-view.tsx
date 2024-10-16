@@ -19,7 +19,7 @@ export const MapView = (props: MapViewProps) => {
         setSelectedGLH(props.placeGLH);
     }, [props.placeGLH])
     return (
-        <Box display='flex' gap='1rem' justifyContent='center' alignItems='center'>
+        <Box className='map-view'>
             <MapLegend selectedGLH={selectedGLH} setSelectedGLH={setSelectedGLH}/>
             <Map mapData={props.mapData} selectedGLH={selectedGLH} selectedPlaces={props.selectedPlaces}/>
         </Box>
