@@ -8,5 +8,5 @@ export var MapView = function (props) {
     useEffect(function () {
         setSelectedGLH(props.placeGLH);
     }, [props.placeGLH]);
-    return (_jsxs(Box, { display: 'flex', gap: '1rem', justifyContent: 'center', alignItems: 'center', children: [_jsx(MapLegend, { selectedGLH: selectedGLH, setSelectedGLH: setSelectedGLH }), _jsx(Map, { selectedGLH: selectedGLH, selectedPlaces: props.selectedPlaces })] }));
+    return (_jsxs(Box, { className: 'map-view', children: [_jsx(MapLegend, { selectedGLH: selectedGLH, setSelectedGLH: setSelectedGLH }), _jsx(Map, { mapData: props.mapData, selectedGLH: selectedGLH, selectedPlaces: props.selectedPlaces })] }));
 };

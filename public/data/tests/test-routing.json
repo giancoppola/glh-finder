@@ -1,36 +1,660 @@
 {
-    "Haematology": {
-        "R361": {
-            "R361.1": {
-                "name": "Haemogloginopathy trait or carrier testing HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by Single gene sequencing",
-                "panel_app_no": null,
-                "category": "Specialist (not WGS or STR)",
-                "single_national_provider": false,
-                "routing": {
-                    "North East & Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
-                    "North West GLH": ["North West GLH - Manchester University FT"],
-                    "East GLH": ["North West GLH - Manchester University FT"],
-                    "Central & South GLH": ["Central and South GLH - Oxford University FT"],
-                    "South West GLH": ["Central and South GLH - Oxford University FT"],
-                    "North Thames GLH": ["South East GLH - King's College FT"],
-                    "South East GLH": ["South East GLH - King's College FT"]
-                }
-            },
-            "R361.2": {
-                "name": "Haemogloginopathy trait or carrier testing HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by MLPA or equivalent",
-                "panel_app_no": null,
-                "category": "Specialist (not WGS or STR)",
-                "single_national_provider": false,
-                "routing": {
-                    "North East & Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
-                    "North West GLH": ["North West GLH - Manchester University FT"],
-                    "East GLH": ["North West GLH - Manchester University FT"],
-                    "Central & South GLH": ["Central and South GLH - Oxford University FT"],
-                    "South West GLH": ["Central and South GLH - Oxford University FT"],
-                    "North Thames GLH": ["South East GLH - King's College FT"],
-                    "South East GLH": ["South East GLH - King's College FT"]
-                }
-            }
-        }
-    }
-}
+	"Haematology": {
+		"R90": {
+			"R90.1": {
+				"name": "Bleeding and platelet disorders Diagnostic testing - unknown mutation(s) by WES or large panel",
+				"panel_app_no": 545,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R91": {
+			"R91.1": {
+				"name": "Cytopenia - NOT Fanconi anaemia Diagnostic testing - unknown mutation(s) by WES or large panel",
+				"panel_app_no": 519,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT not all genes covered"],
+					"South East GLH": ["South East GLH - King's College FT not all genes covered"]
+				}
+			}
+		},
+		"R92": {
+			"R92.1": {
+				"name": "Rare anaemia Diagnostic testing - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			},
+			"R92.2": {
+				"name": "Rare anaemia Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			},
+			"R92.3": {
+				"name": "Rare anaemia Diagnostic testing - unknown mutation(s) by WES or large panel",
+				"panel_app_no": 518,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R93": {
+			"R93.1": {
+				"name": "HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			},
+			"R93.2": {
+				"name": "HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R94": {
+			"R94.1": {
+				"name": "HbSS variant - unknown mutation(s) by Targeted mutation testing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R96": {
+			"R96.1": {
+				"name": "Iron metabolism disorders - NOT common HFE mutations Diagnostic testing - unknown mutation(s) by Small panel",
+				"panel_app_no": 515,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R97": {
+			"R97.1": {
+				"name": "Thrombophilia with a likely monogenic cause Diagnostic testing - unknown mutation(s) by WES or large panel",
+				"panel_app_no": 516,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R112": {
+			"R112.1": {
+				"name": "Factor II deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R115": {
+			"R115.1": {
+				"name": "Factor V deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R116": {
+			"R116.1": {
+				"name": "Factor VII deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R116.2": {
+				"name": "Factor VII deficiency Diagnostic testing - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R117": {
+			"R117.1": {
+				"name": "Factor VIII deficiency Diagnostic testing - unknown mutation(s) by Targeted mutation testing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R117.2": {
+				"name": "Factor VIII deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R117.3": {
+				"name": "Factor VIII deficiency Diagnostic testing - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R118": {
+			"R118.1": {
+				"name": "Factor IX deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R118.2": {
+				"name": "Factor IX deficiency Diagnostic testing - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R119": {
+			"R119.1": {
+				"name": "Factor X deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R119.2": {
+				"name": "Factor X deficiency Diagnostic testing - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R120": {
+			"R120.1": {
+				"name": "Factor XI deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R121": {
+			"R121.1": {
+				"name": "von Willebrand disease Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R121.2": {
+				"name": "von Willebrand disease Diagnostic testing - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R122": {
+			"R122.1": {
+				"name": "Factor XIII deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R123": {
+			"R123.1": {
+				"name": "Combined vitamin K-dependent clotting factor deficiency Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R124": {
+			"R124.1": {
+			"name": "Combined factor V and VIII deficiency Diagnostic testing - unknown mutation(s) by Small panel",
+			"panel_app_no": 517,
+			"category": "Specialist (not WGS or STR)",
+			"single_national_provider": false,
+			"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R229": {
+			"R229.1": {
+				"name": "Confirmed Fanconi anaemia or Bloom syndrome - mutation testing Diagnostic testing - unknown mutation(s) by Small panel",
+				"panel_app_no": 508,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Leeds Teaching Trust", "North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R258": {
+			"R258.1": {
+				"name": "Cytopenia - Fanconi breakage testing indicated Diagnostic testing - unknown mutation(s) by DNA repair defect testing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"East GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"Central and South GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"South West GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R258.2": {
+				"name": "Cytopenia - Fanconi breakage testing indicated Diagnostic testing - unknown mutation(s) by WES or large panel",
+				"panel_app_no": 508,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Teaching Trust"],
+					"North West GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"East GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"Central and South GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"South West GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT not all genes covered"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT not all genes covered"]
+				}
+			}
+		},
+		"R259": {
+			"R259.1": {
+				"name": "Nijmegen breakage syndrome Diagnostic testing - unknown mutation(s) by DNA repair defect testing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": true,
+				"routing": {
+					"North East and Yorkshire GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"North West GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"East GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"Central and South GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South West GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			},
+			"R259.2": {
+				"name": "Nijmegen breakage syndrome Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Leeds Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R260": {
+			"R260.1": {
+				"name": "Fanconi anaemia or Bloom syndrome - chromosome breakage testing Diagnostic testing - unknown mutation(s) by DNA repair defect testing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"East GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"Central and South GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"South West GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"North Thames GLH": ["South East GLH - Guy's & St Thomas' FT"],
+					"South East GLH": ["South East GLH - Guy's & St Thomas' FT"]
+				}
+			}
+		},
+		"R313": {
+			"R313.1": {
+				"name": "Neutropaenia consistent with ELANE mutations Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Leeds Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R338": {
+			"R338.1": {
+				"name": "Monitoring for G(M)CSF escape mutations Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R347": {
+			"R347.1": {
+				"name": "Inherited predisposition to acute myeloid leukaemia (AML) Diagnostic testing - unknown mutation(s) by Small panel",
+				"panel_app_no": 525,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Leeds Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"South West GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"North Thames GLH": ["South East GLH - King's College FT not all genes covered"],
+					"South East GLH": ["South East GLH - King's College FT not all genes covered"]
+				}
+			}
+		},
+		"R361": {
+			"R361.1": {
+				"name": "Haemogloginopathy trait or carrier testing HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			},
+			"R361.2": {
+				"name": "Haemogloginopathy trait or carrier testing HBA1; HBA2; HBG1; HBG2; HBB - unknown mutation(s) by MLPA or equivalent",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R362": {
+			"R362.1": {
+				"name": "Carrier testing for sickle cell disease Diagnostic testing - unknown mutation(s) by Targeted mutation testing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Sheffield Children's FT"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Oxford University FT"],
+					"South West GLH": ["Central and South GLH - Oxford University FT"],
+					"North Thames GLH": ["South East GLH - King's College FT"],
+					"South East GLH": ["South East GLH - King's College FT"]
+				}
+			}
+		},
+		"R366": {
+			"R366.1": {
+				"name": "Inherited susceptibility to acute lymphoblastoid leukaemia (ALL) Diagnostic testing - unknown mutation(s) by Single gene sequencing",
+				"panel_app_no": null,
+				"category": "Specialist (not WGS or STR)",
+				"single_national_provider": false,
+				"routing": {
+					"North East and Yorkshire GLH": ["North East and Yorkshire GLH - Leeds Teaching Trust"],
+					"North West GLH": ["North West GLH - Manchester University FT"],
+					"East GLH": ["North West GLH - Manchester University FT"],
+					"Central and South GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"South West GLH": ["Central and South GLH - Birmingham Women's and Children's FT"],
+					"North Thames GLH": ["South East GLH - King's College FT not all genes covered"],
+					"South East GLH": ["South East GLH - King's College FT not all genes covered"]
+				}
+			}
+		}
+	}
+  }

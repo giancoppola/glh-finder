@@ -6,6 +6,7 @@ import { Location, GLH_NAME } from "../globals.js";
 import { MapLegend } from "../modules/map-legend.js";
 
 interface MapViewProps {
+    mapData: GeoJSON.FeatureCollection;
     showMap: boolean;
     setShowMap: Function;
     selectedPlaces: Array<Location>;
@@ -18,9 +19,9 @@ export const MapView = (props: MapViewProps) => {
         setSelectedGLH(props.placeGLH);
     }, [props.placeGLH])
     return (
-        <Box display='flex' gap='1rem' justifyContent='center' alignItems='center'>
+        <Box className='map-view'>
             <MapLegend selectedGLH={selectedGLH} setSelectedGLH={setSelectedGLH}/>
-            <Map selectedGLH={selectedGLH} selectedPlaces={props.selectedPlaces}/>
+            <Map mapData={props.mapData} selectedGLH={selectedGLH} selectedPlaces={props.selectedPlaces}/>
         </Box>
     )
 }
