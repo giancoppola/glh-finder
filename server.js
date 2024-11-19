@@ -18,11 +18,10 @@ app.get("*", function (req, res, next) {
 });
 app.get('/', function (req, res, next) {
     res.sendFile(__dirname + "/html/index.html");
-    // res.send('<a href="/auth/google">Login with Google</a><a href="/logout">Log Out</a>')
 });
-//API endpoints
-// const googleAuthRoute = require("./api/google-auth").router;
-// app.use("/", googleAuthRoute);
+app.get('/admin', function (req, res, next) {
+    res.sendFile(__dirname + "/html/admin.html");
+});
 // Error page matching
 app.get('*', function (req, res, next) {
     res.status(400).send('No match found - error page!');

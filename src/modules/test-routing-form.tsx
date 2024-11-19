@@ -57,12 +57,6 @@ export const TestRoutingForm = (props: TestRoutingFormProps) => {
                 </Select>
             </FormControl>
             { selectedTestIndication &&
-                // <Box>
-                //     <Typography>Test Name: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).name}</Typography>
-                //     <Typography>Panel App No: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no === null ? 'N/A' : (testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).panel_app_no}</Typography>
-                //     <Typography>Test Category: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).category}</Typography>
-                //     <Typography>Single National Provider: {(testRoutingData[selectedSpecialty][selectedCI][selectedTestIndication] as TestDetails).single_national_provider === true ? "Yes" : "No"}</Typography>
-                // </Box>
                 <>
                     <Toolbar>
                         <Typography variant="h4">Test Details</Typography>

@@ -14,6 +14,7 @@ module.exports = {
     entry: {
         // test: './src/test.js',
         index: './src/index.js',
+        admin: './src/admin.js',
     },
     output: {
         filename: '[name].bundle.js',

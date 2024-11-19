@@ -25,12 +25,10 @@ app.get("*", (req: Request, res:Response, next: NextFunction) => {
 
 app.get('/', (req: Request, res:Response, next: NextFunction) => {
     res.sendFile(__dirname + `/html/index.html`)
-    // res.send('<a href="/auth/google">Login with Google</a><a href="/logout">Log Out</a>')
 })
-
-//API endpoints
-// const googleAuthRoute = require("./api/google-auth").router;
-// app.use("/", googleAuthRoute);
+app.get('/admin', (req: Request, res:Response, next: NextFunction) => {
+    res.sendFile(__dirname + `/html/admin.html`)
+})
 
 // Error page matching
 app.get('*', (req: Request, res: Response, next: NextFunction) => {
