@@ -30,6 +30,20 @@ app.get('/admin', (req: Request, res:Response, next: NextFunction) => {
     res.sendFile(__dirname + `/html/admin.html`)
 })
 
+interface UserInterface {
+    [key: string]: string;
+}
+const users: UserInterface = {
+
+}
+app.get('api/login', (req: Request, res: Response, next: NextFunction) => {
+    const username: string = req.body.username;
+    const password: string = req.body.password;
+    if (users[username] != null && users[username] === password) {
+
+    }
+})
+
 // Error page matching
 app.get('*', (req: Request, res: Response, next: NextFunction) => {
     res.status(400).send('No match found - error page!');

@@ -22,6 +22,10 @@ app.get('/', function (req, res, next) {
 app.get('/admin', function (req, res, next) {
     res.sendFile(__dirname + "/html/admin.html");
 });
+app.get('api/login', function (req, res, next) {
+    req.
+    ;
+});
 // Error page matching
 app.get('*', function (req, res, next) {
     res.status(400).send('No match found - error page!');
