@@ -30,17 +30,20 @@ app.get('/admin', (req: Request, res:Response, next: NextFunction) => {
     res.sendFile(__dirname + `/html/admin.html`)
 })
 
-interface UserInterface {
-    [key: string]: string;
-}
-const users: UserInterface = {
-
-}
-app.get('api/login', (req: Request, res: Response, next: NextFunction) => {
-    const username: string = req.body.username;
-    const password: string = req.body.password;
-    if (users[username] != null && users[username] === password) {
-
+app.get('/login', (req: Request, res: Response, next: NextFunction) => {
+    const username: string = req.query.username as string;
+    const password: string = req.query.password as string;
+    if (username != process.env.ADMIN_USERNAME || password != process.env.ADMIN_PASSWORD) {
+        res.status(400).send({
+            status: 'failure',
+            error: "Username or password is incorrect"
+        })
+    }
+    else {
+        res.status(200).send({
+            status: 'success',
+            error: ''
+        })
     }
 })
 

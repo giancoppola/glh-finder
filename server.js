@@ -22,9 +22,21 @@ app.get('/', function (req, res, next) {
 app.get('/admin', function (req, res, next) {
     res.sendFile(__dirname + "/html/admin.html");
 });
-app.get('api/login', function (req, res, next) {
-    req.
-    ;
+app.get('/login', function (req, res, next) {
+    var username = req.query.username;
+    var password = req.query.password;
+    if (username != process.env.ADMIN_USERNAME || password != process.env.ADMIN_PASSWORD) {
+        res.status(400).send({
+            status: 'failure',
+            error: "Username or password is incorrect"
+        });
+    }
+    else {
+        res.status(200).send({
+            status: 'success',
+            error: ''
+        });
+    }
 });
 // Error page matching
 app.get('*', function (req, res, next) {

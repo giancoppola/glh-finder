@@ -36,15 +36,40 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from "react";
-import { Box, Button, TextField } from "@mui/material";
+import { Box, Button, TextField, Typography } from "@mui/material";
 export var AdminLoginForm = function (props) {
     var _a = useState(""), username = _a[0], setUsername = _a[1];
     var _b = useState(""), password = _b[0], setPassword = _b[1];
+    var _c = useState(""), error = _c[0], setError = _c[1];
     var FormValidation = function () { return __awaiter(void 0, void 0, void 0, function () {
+        var response, result, error_1;
         return __generator(this, function (_a) {
-            console.log('form validation happens here');
-            return [2 /*return*/];
+            switch (_a.label) {
+                case 0:
+                    setError("");
+                    _a.label = 1;
+                case 1:
+                    _a.trys.push([1, 4, , 5]);
+                    return [4 /*yield*/, fetch("/login?username=".concat(username, "&password=").concat(password))];
+                case 2:
+                    response = _a.sent();
+                    return [4 /*yield*/, response.json()];
+                case 3:
+                    result = _a.sent();
+                    if (result.status === 'success') {
+                        props.setIsVerified(true);
+                    }
+                    else {
+                        setError(result.error);
+                    }
+                    return [3 /*break*/, 5];
+                case 4:
+                    error_1 = _a.sent();
+                    setError(error_1.message);
+                    return [3 /*break*/, 5];
+                case 5: return [2 /*return*/];
+            }
         });
     }); };
-    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100dvh', gap: '1rem', children: [_jsx(TextField, { required: true, label: "Username", helperText: "Enter your username", onChange: function (e) { return setUsername(e.target.value); } }), _jsx(TextField, { required: true, label: "Password", helperText: "Enter your password", onChange: function (e) { return setPassword(e.target.value); } }), _jsx(Button, { variant: 'outlined', fullWidth: true, onClick: function () { return FormValidation(); }, children: "Submit" })] }));
+    return (_jsxs(Box, { display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100dvh', gap: '1rem', width: '50%', children: [_jsx(Typography, { variant: 'h3', fontWeight: '500', textAlign: 'left', width: '100%', children: "Log In" }), _jsx(TextField, { required: true, fullWidth: true, label: "Username", helperText: "Enter your username", onChange: function (e) { return setUsername(e.target.value); } }), _jsx(TextField, { required: true, fullWidth: true, label: "Password", helperText: "Enter your password", type: "password", onChange: function (e) { return setPassword(e.target.value); } }), _jsx(Button, { variant: 'outlined', fullWidth: true, onClick: function () { return FormValidation(); }, children: "Submit" }), _jsx(Typography, { color: 'error', children: error })] }));
 };
